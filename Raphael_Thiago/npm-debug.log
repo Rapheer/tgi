@@ -1,0 +1,2760 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'mocha', '--save' ]
+2 info using npm@3.6.0
+3 info using node@v5.6.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mocha
+8 silly fetchNamedPackageData mocha
+9 silly mapToRegistry name mocha
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/mocha
+13 verbose request uri https://registry.npmjs.org/mocha
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 12:39:25 AM
+16 verbose request id 286ab5eb7c35fc69
+17 http request GET https://registry.npmjs.org/mocha
+18 http 200 https://registry.npmjs.org/mocha
+19 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+19 verbose headers   etag: '"B8RWDPROSHIORXJUT57WK8G9T"',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'cache-control': 'max-age=300',
+19 verbose headers   'content-length': '281889',
+19 verbose headers   'accept-ranges': 'bytes',
+19 verbose headers   date: 'Wed, 24 Feb 2016 03:39:26 GMT',
+19 verbose headers   via: '1.1 varnish',
+19 verbose headers   age: '31',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'x-served-by': 'cache-iad2142-IAD',
+19 verbose headers   'x-cache': 'HIT',
+19 verbose headers   'x-cache-hits': '1',
+19 verbose headers   'x-timer': 'S1456285166.251928,VS0,VE0',
+19 verbose headers   vary: 'Accept' }
+20 silly get cb [ 200,
+20 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 silly get     etag: '"B8RWDPROSHIORXJUT57WK8G9T"',
+20 silly get     'content-type': 'application/json',
+20 silly get     'cache-control': 'max-age=300',
+20 silly get     'content-length': '281889',
+20 silly get     'accept-ranges': 'bytes',
+20 silly get     date: 'Wed, 24 Feb 2016 03:39:26 GMT',
+20 silly get     via: '1.1 varnish',
+20 silly get     age: '31',
+20 silly get     connection: 'keep-alive',
+20 silly get     'x-served-by': 'cache-iad2142-IAD',
+20 silly get     'x-cache': 'HIT',
+20 silly get     'x-cache-hits': '1',
+20 silly get     'x-timer': 'S1456285166.251928,VS0,VE0',
+20 silly get     vary: 'Accept' } ]
+21 verbose get saving mocha to /home/raphael/.npm/registry.npmjs.org/mocha/.cache.json
+22 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+23 silly install normalizeTree
+24 silly loadCurrentTree Finishing
+25 silly loadIdealTree Starting
+26 silly install loadIdealTree
+27 silly cloneCurrentTree Starting
+28 silly install cloneCurrentTreeToIdealTree
+29 silly cloneCurrentTree Finishing
+30 silly loadShrinkwrap Starting
+31 silly install loadShrinkwrap
+32 silly loadShrinkwrap Finishing
+33 silly loadAllDepsIntoIdealTree Starting
+34 silly install loadAllDepsIntoIdealTree
+35 silly resolveWithNewModule mocha@2.4.5 checking installable status
+36 silly cache add args [ 'mocha', null ]
+37 verbose cache add spec mocha
+38 silly cache add parsed spec Result {
+38 silly cache add   raw: 'mocha',
+38 silly cache add   scope: null,
+38 silly cache add   name: 'mocha',
+38 silly cache add   rawSpec: '',
+38 silly cache add   spec: 'latest',
+38 silly cache add   type: 'tag' }
+39 silly addNamed mocha@latest
+40 verbose addNamed "latest" is being treated as a dist-tag for mocha
+41 info addNameTag [ 'mocha', 'latest' ]
+42 silly mapToRegistry name mocha
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/mocha
+46 verbose addNameTag registry:https://registry.npmjs.org/mocha not in flight; fetching
+47 verbose get https://registry.npmjs.org/mocha not expired, no request
+48 silly addNameTag next cb for mocha with tag latest
+49 silly addNamed mocha@2.4.5
+50 verbose addNamed "2.4.5" is a plain semver version for mocha
+51 silly mapToRegistry name mocha
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry uri https://registry.npmjs.org/mocha
+55 verbose addRemoteTarball https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz not in flight; adding
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz',
+56 verbose addRemoteTarball   '151768dd2875eb51bc8295e9800026e9f2bb398f' ]
+57 info retry fetch attempt 1 at 12:39:30 AM
+58 info attempt registry request try #1 at 12:39:30 AM
+59 http fetch GET https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz
+60 http fetch 200 https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz
+61 silly fetchAndShaCheck shasum 151768dd2875eb51bc8295e9800026e9f2bb398f
+62 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/mocha/-/mocha-2.4.5.tgz not in flight; adding
+63 verbose addTmpTarball already have metadata; skipping unpack for mocha@2.4.5
+64 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+65 silly cache afterAdd mocha@2.4.5
+66 verbose afterAdd /home/raphael/.npm/mocha/2.4.5/package/package.json not in flight; writing
+67 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+68 verbose afterAdd /home/raphael/.npm/mocha/2.4.5/package/package.json written
+69 silly fetchNamedPackageData commander
+70 silly mapToRegistry name commander
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry uri https://registry.npmjs.org/commander
+74 silly fetchNamedPackageData diff
+75 silly mapToRegistry name diff
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/diff
+79 silly fetchNamedPackageData escape-string-regexp
+80 silly mapToRegistry name escape-string-regexp
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/escape-string-regexp
+84 silly fetchNamedPackageData glob
+85 silly mapToRegistry name glob
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry uri https://registry.npmjs.org/glob
+89 silly fetchNamedPackageData growl
+90 silly mapToRegistry name growl
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/growl
+94 silly fetchNamedPackageData jade
+95 silly mapToRegistry name jade
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry uri https://registry.npmjs.org/jade
+99 silly fetchNamedPackageData mkdirp
+100 silly mapToRegistry name mkdirp
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+104 silly fetchNamedPackageData supports-color
+105 silly mapToRegistry name supports-color
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry uri https://registry.npmjs.org/supports-color
+109 verbose request uri https://registry.npmjs.org/commander
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 12:39:32 AM
+112 http request GET https://registry.npmjs.org/commander
+113 verbose request uri https://registry.npmjs.org/diff
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 12:39:32 AM
+116 http request GET https://registry.npmjs.org/diff
+117 verbose request uri https://registry.npmjs.org/escape-string-regexp
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 12:39:32 AM
+120 http request GET https://registry.npmjs.org/escape-string-regexp
+121 verbose request uri https://registry.npmjs.org/glob
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 12:39:32 AM
+124 http request GET https://registry.npmjs.org/glob
+125 verbose request uri https://registry.npmjs.org/growl
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 12:39:32 AM
+128 http request GET https://registry.npmjs.org/growl
+129 verbose request uri https://registry.npmjs.org/jade
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 12:39:32 AM
+132 http request GET https://registry.npmjs.org/jade
+133 verbose request uri https://registry.npmjs.org/mkdirp
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 12:39:32 AM
+136 http request GET https://registry.npmjs.org/mkdirp
+137 verbose request uri https://registry.npmjs.org/supports-color
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 12:39:32 AM
+140 http request GET https://registry.npmjs.org/supports-color
+141 http 200 https://registry.npmjs.org/escape-string-regexp
+142 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+142 verbose headers   etag: '"BO6X0Q949NALK20NKPPHXQBXY"',
+142 verbose headers   'content-type': 'application/json',
+142 verbose headers   'cache-control': 'max-age=300',
+142 verbose headers   'content-length': '9157',
+142 verbose headers   'accept-ranges': 'bytes',
+142 verbose headers   date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+142 verbose headers   via: '1.1 varnish',
+142 verbose headers   age: '221',
+142 verbose headers   connection: 'keep-alive',
+142 verbose headers   'x-served-by': 'cache-sjc3132-SJC',
+142 verbose headers   'x-cache': 'HIT',
+142 verbose headers   'x-cache-hits': '19',
+142 verbose headers   'x-timer': 'S1456285173.462878,VS0,VE0',
+142 verbose headers   vary: 'Accept' }
+143 silly get cb [ 200,
+143 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+143 silly get     etag: '"BO6X0Q949NALK20NKPPHXQBXY"',
+143 silly get     'content-type': 'application/json',
+143 silly get     'cache-control': 'max-age=300',
+143 silly get     'content-length': '9157',
+143 silly get     'accept-ranges': 'bytes',
+143 silly get     date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+143 silly get     via: '1.1 varnish',
+143 silly get     age: '221',
+143 silly get     connection: 'keep-alive',
+143 silly get     'x-served-by': 'cache-sjc3132-SJC',
+143 silly get     'x-cache': 'HIT',
+143 silly get     'x-cache-hits': '19',
+143 silly get     'x-timer': 'S1456285173.462878,VS0,VE0',
+143 silly get     vary: 'Accept' } ]
+144 verbose get saving escape-string-regexp to /home/raphael/.npm/registry.npmjs.org/escape-string-regexp/.cache.json
+145 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+146 silly resolveWithNewModule escape-string-regexp@1.0.2 checking installable status
+147 silly cache add args [ 'escape-string-regexp@1.0.2', null ]
+148 verbose cache add spec escape-string-regexp@1.0.2
+149 silly cache add parsed spec Result {
+149 silly cache add   raw: 'escape-string-regexp@1.0.2',
+149 silly cache add   scope: null,
+149 silly cache add   name: 'escape-string-regexp',
+149 silly cache add   rawSpec: '1.0.2',
+149 silly cache add   spec: '1.0.2',
+149 silly cache add   type: 'version' }
+150 silly addNamed escape-string-regexp@1.0.2
+151 verbose addNamed "1.0.2" is a plain semver version for escape-string-regexp
+152 silly mapToRegistry name escape-string-regexp
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry uri https://registry.npmjs.org/escape-string-regexp
+156 verbose addNameVersion registry:https://registry.npmjs.org/escape-string-regexp not in flight; fetching
+157 verbose get https://registry.npmjs.org/escape-string-regexp not expired, no request
+158 silly mapToRegistry name escape-string-regexp
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry uri https://registry.npmjs.org/escape-string-regexp
+162 verbose addRemoteTarball https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz not in flight; adding
+163 verbose addRemoteTarball [ 'https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz',
+163 verbose addRemoteTarball   '4dbc2fe674e71949caf3fb2695ce7f2dc1d9a8d1' ]
+164 info retry fetch attempt 1 at 12:39:33 AM
+165 info attempt registry request try #1 at 12:39:33 AM
+166 http fetch GET https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz
+167 http 200 https://registry.npmjs.org/growl
+168 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+168 verbose headers   etag: '"DEMYOOO5EWJHG06KLRMULDC09"',
+168 verbose headers   'content-type': 'application/json',
+168 verbose headers   'cache-control': 'max-age=300',
+168 verbose headers   'content-length': '17630',
+168 verbose headers   'accept-ranges': 'bytes',
+168 verbose headers   date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+168 verbose headers   via: '1.1 varnish',
+168 verbose headers   age: '163',
+168 verbose headers   connection: 'keep-alive',
+168 verbose headers   'x-served-by': 'cache-sjc3128-SJC',
+168 verbose headers   'x-cache': 'HIT',
+168 verbose headers   'x-cache-hits': '3',
+168 verbose headers   'x-timer': 'S1456285173.484000,VS0,VE0',
+168 verbose headers   vary: 'Accept' }
+169 silly get cb [ 200,
+169 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+169 silly get     etag: '"DEMYOOO5EWJHG06KLRMULDC09"',
+169 silly get     'content-type': 'application/json',
+169 silly get     'cache-control': 'max-age=300',
+169 silly get     'content-length': '17630',
+169 silly get     'accept-ranges': 'bytes',
+169 silly get     date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+169 silly get     via: '1.1 varnish',
+169 silly get     age: '163',
+169 silly get     connection: 'keep-alive',
+169 silly get     'x-served-by': 'cache-sjc3128-SJC',
+169 silly get     'x-cache': 'HIT',
+169 silly get     'x-cache-hits': '3',
+169 silly get     'x-timer': 'S1456285173.484000,VS0,VE0',
+169 silly get     vary: 'Accept' } ]
+170 verbose get saving growl to /home/raphael/.npm/registry.npmjs.org/growl/.cache.json
+171 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+172 silly resolveWithNewModule growl@1.8.1 checking installable status
+173 silly cache add args [ 'growl@1.8.1', null ]
+174 verbose cache add spec growl@1.8.1
+175 silly cache add parsed spec Result {
+175 silly cache add   raw: 'growl@1.8.1',
+175 silly cache add   scope: null,
+175 silly cache add   name: 'growl',
+175 silly cache add   rawSpec: '1.8.1',
+175 silly cache add   spec: '1.8.1',
+175 silly cache add   type: 'version' }
+176 silly addNamed growl@1.8.1
+177 verbose addNamed "1.8.1" is a plain semver version for growl
+178 silly mapToRegistry name growl
+179 silly mapToRegistry using default registry
+180 silly mapToRegistry registry https://registry.npmjs.org/
+181 silly mapToRegistry uri https://registry.npmjs.org/growl
+182 verbose addNameVersion registry:https://registry.npmjs.org/growl not in flight; fetching
+183 http 200 https://registry.npmjs.org/supports-color
+184 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+184 verbose headers   etag: '"91QPISXHGSPQQAUI4IY5OE9UJ"',
+184 verbose headers   'content-type': 'application/json',
+184 verbose headers   'cache-control': 'max-age=300',
+184 verbose headers   'content-length': '20342',
+184 verbose headers   'accept-ranges': 'bytes',
+184 verbose headers   date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+184 verbose headers   via: '1.1 varnish',
+184 verbose headers   age: '127',
+184 verbose headers   connection: 'keep-alive',
+184 verbose headers   'x-served-by': 'cache-sjc3122-SJC',
+184 verbose headers   'x-cache': 'HIT',
+184 verbose headers   'x-cache-hits': '9',
+184 verbose headers   'x-timer': 'S1456285173.491980,VS0,VE0',
+184 verbose headers   vary: 'Accept' }
+185 silly get cb [ 200,
+185 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+185 silly get     etag: '"91QPISXHGSPQQAUI4IY5OE9UJ"',
+185 silly get     'content-type': 'application/json',
+185 silly get     'cache-control': 'max-age=300',
+185 silly get     'content-length': '20342',
+185 silly get     'accept-ranges': 'bytes',
+185 silly get     date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+185 silly get     via: '1.1 varnish',
+185 silly get     age: '127',
+185 silly get     connection: 'keep-alive',
+185 silly get     'x-served-by': 'cache-sjc3122-SJC',
+185 silly get     'x-cache': 'HIT',
+185 silly get     'x-cache-hits': '9',
+185 silly get     'x-timer': 'S1456285173.491980,VS0,VE0',
+185 silly get     vary: 'Accept' } ]
+186 verbose get saving supports-color to /home/raphael/.npm/registry.npmjs.org/supports-color/.cache.json
+187 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+188 verbose get https://registry.npmjs.org/growl not expired, no request
+189 silly mapToRegistry name growl
+190 silly mapToRegistry using default registry
+191 silly mapToRegistry registry https://registry.npmjs.org/
+192 silly mapToRegistry uri https://registry.npmjs.org/growl
+193 verbose addRemoteTarball https://registry.npmjs.org/growl/-/growl-1.8.1.tgz not in flight; adding
+194 verbose addRemoteTarball [ 'https://registry.npmjs.org/growl/-/growl-1.8.1.tgz',
+194 verbose addRemoteTarball   '4b2dec8d907e93db336624dcec0183502f8c9428' ]
+195 info retry fetch attempt 1 at 12:39:34 AM
+196 info attempt registry request try #1 at 12:39:34 AM
+197 http fetch GET https://registry.npmjs.org/growl/-/growl-1.8.1.tgz
+198 silly resolveWithNewModule supports-color@1.2.0 checking installable status
+199 silly cache add args [ 'supports-color@1.2.0', null ]
+200 verbose cache add spec supports-color@1.2.0
+201 silly cache add parsed spec Result {
+201 silly cache add   raw: 'supports-color@1.2.0',
+201 silly cache add   scope: null,
+201 silly cache add   name: 'supports-color',
+201 silly cache add   rawSpec: '1.2.0',
+201 silly cache add   spec: '1.2.0',
+201 silly cache add   type: 'version' }
+202 silly addNamed supports-color@1.2.0
+203 verbose addNamed "1.2.0" is a plain semver version for supports-color
+204 silly mapToRegistry name supports-color
+205 silly mapToRegistry using default registry
+206 silly mapToRegistry registry https://registry.npmjs.org/
+207 silly mapToRegistry uri https://registry.npmjs.org/supports-color
+208 verbose addNameVersion registry:https://registry.npmjs.org/supports-color not in flight; fetching
+209 verbose get https://registry.npmjs.org/supports-color not expired, no request
+210 silly mapToRegistry name supports-color
+211 silly mapToRegistry using default registry
+212 silly mapToRegistry registry https://registry.npmjs.org/
+213 silly mapToRegistry uri https://registry.npmjs.org/supports-color
+214 verbose addRemoteTarball https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz not in flight; adding
+215 verbose addRemoteTarball [ 'https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz',
+215 verbose addRemoteTarball   'ff1ed1e61169d06b3cf2d588e188b18d8847e17e' ]
+216 info retry fetch attempt 1 at 12:39:34 AM
+217 info attempt registry request try #1 at 12:39:34 AM
+218 http fetch GET https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz
+219 http 200 https://registry.npmjs.org/diff
+220 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+220 verbose headers   etag: '"A5ZRN2HKK1SSL0VIMSI0ZVLPN"',
+220 verbose headers   'content-type': 'application/json',
+220 verbose headers   'cache-control': 'max-age=300',
+220 verbose headers   'content-length': '41619',
+220 verbose headers   'accept-ranges': 'bytes',
+220 verbose headers   date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+220 verbose headers   via: '1.1 varnish',
+220 verbose headers   age: '176',
+220 verbose headers   connection: 'keep-alive',
+220 verbose headers   'x-served-by': 'cache-lax1420-LAX',
+220 verbose headers   'x-cache': 'HIT',
+220 verbose headers   'x-cache-hits': '2',
+220 verbose headers   'x-timer': 'S1456285173.503840,VS0,VE0',
+220 verbose headers   vary: 'Accept' }
+221 silly get cb [ 200,
+221 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+221 silly get     etag: '"A5ZRN2HKK1SSL0VIMSI0ZVLPN"',
+221 silly get     'content-type': 'application/json',
+221 silly get     'cache-control': 'max-age=300',
+221 silly get     'content-length': '41619',
+221 silly get     'accept-ranges': 'bytes',
+221 silly get     date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+221 silly get     via: '1.1 varnish',
+221 silly get     age: '176',
+221 silly get     connection: 'keep-alive',
+221 silly get     'x-served-by': 'cache-lax1420-LAX',
+221 silly get     'x-cache': 'HIT',
+221 silly get     'x-cache-hits': '2',
+221 silly get     'x-timer': 'S1456285173.503840,VS0,VE0',
+221 silly get     vary: 'Accept' } ]
+222 verbose get saving diff to /home/raphael/.npm/registry.npmjs.org/diff/.cache.json
+223 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+224 silly resolveWithNewModule diff@1.4.0 checking installable status
+225 silly cache add args [ 'diff@1.4.0', null ]
+226 verbose cache add spec diff@1.4.0
+227 silly cache add parsed spec Result {
+227 silly cache add   raw: 'diff@1.4.0',
+227 silly cache add   scope: null,
+227 silly cache add   name: 'diff',
+227 silly cache add   rawSpec: '1.4.0',
+227 silly cache add   spec: '1.4.0',
+227 silly cache add   type: 'version' }
+228 silly addNamed diff@1.4.0
+229 verbose addNamed "1.4.0" is a plain semver version for diff
+230 silly mapToRegistry name diff
+231 silly mapToRegistry using default registry
+232 silly mapToRegistry registry https://registry.npmjs.org/
+233 silly mapToRegistry uri https://registry.npmjs.org/diff
+234 verbose addNameVersion registry:https://registry.npmjs.org/diff not in flight; fetching
+235 verbose get https://registry.npmjs.org/diff not expired, no request
+236 silly mapToRegistry name diff
+237 silly mapToRegistry using default registry
+238 silly mapToRegistry registry https://registry.npmjs.org/
+239 silly mapToRegistry uri https://registry.npmjs.org/diff
+240 verbose addRemoteTarball https://registry.npmjs.org/diff/-/diff-1.4.0.tgz not in flight; adding
+241 verbose addRemoteTarball [ 'https://registry.npmjs.org/diff/-/diff-1.4.0.tgz',
+241 verbose addRemoteTarball   '7f28d2eb9ee7b15a97efd89ce63dcfdaa3ccbabf' ]
+242 info retry fetch attempt 1 at 12:39:34 AM
+243 info attempt registry request try #1 at 12:39:34 AM
+244 http fetch GET https://registry.npmjs.org/diff/-/diff-1.4.0.tgz
+245 http 200 https://registry.npmjs.org/mkdirp
+246 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+246 verbose headers   etag: '"E2M2HA16B2KY2QONZ24EHY7WZ"',
+246 verbose headers   'content-type': 'application/json',
+246 verbose headers   'cache-control': 'max-age=300',
+246 verbose headers   'content-length': '23684',
+246 verbose headers   'accept-ranges': 'bytes',
+246 verbose headers   date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+246 verbose headers   via: '1.1 varnish',
+246 verbose headers   age: '229',
+246 verbose headers   connection: 'keep-alive',
+246 verbose headers   'x-served-by': 'cache-lax1422-LAX',
+246 verbose headers   'x-cache': 'HIT',
+246 verbose headers   'x-cache-hits': '17',
+246 verbose headers   'x-timer': 'S1456285173.522236,VS0,VE0',
+246 verbose headers   vary: 'Accept' }
+247 silly get cb [ 200,
+247 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+247 silly get     etag: '"E2M2HA16B2KY2QONZ24EHY7WZ"',
+247 silly get     'content-type': 'application/json',
+247 silly get     'cache-control': 'max-age=300',
+247 silly get     'content-length': '23684',
+247 silly get     'accept-ranges': 'bytes',
+247 silly get     date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+247 silly get     via: '1.1 varnish',
+247 silly get     age: '229',
+247 silly get     connection: 'keep-alive',
+247 silly get     'x-served-by': 'cache-lax1422-LAX',
+247 silly get     'x-cache': 'HIT',
+247 silly get     'x-cache-hits': '17',
+247 silly get     'x-timer': 'S1456285173.522236,VS0,VE0',
+247 silly get     vary: 'Accept' } ]
+248 verbose get saving mkdirp to /home/raphael/.npm/registry.npmjs.org/mkdirp/.cache.json
+249 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+250 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+251 silly cache add args [ 'mkdirp@0.5.1', null ]
+252 verbose cache add spec mkdirp@0.5.1
+253 silly cache add parsed spec Result {
+253 silly cache add   raw: 'mkdirp@0.5.1',
+253 silly cache add   scope: null,
+253 silly cache add   name: 'mkdirp',
+253 silly cache add   rawSpec: '0.5.1',
+253 silly cache add   spec: '0.5.1',
+253 silly cache add   type: 'version' }
+254 silly addNamed mkdirp@0.5.1
+255 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+256 silly mapToRegistry name mkdirp
+257 silly mapToRegistry using default registry
+258 silly mapToRegistry registry https://registry.npmjs.org/
+259 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+260 verbose addNameVersion registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+261 verbose get https://registry.npmjs.org/mkdirp not expired, no request
+262 silly mapToRegistry name mkdirp
+263 silly mapToRegistry using default registry
+264 silly mapToRegistry registry https://registry.npmjs.org/
+265 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+266 verbose addRemoteTarball https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz not in flight; adding
+267 verbose addRemoteTarball [ 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz',
+267 verbose addRemoteTarball   '30057438eac6cf7f8c4767f38648d6697d75c903' ]
+268 info retry fetch attempt 1 at 12:39:34 AM
+269 info attempt registry request try #1 at 12:39:34 AM
+270 http fetch GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz
+271 http 200 https://registry.npmjs.org/commander
+272 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+272 verbose headers   etag: '"4ZTIKJ17VT5GZJ0SWP30PJION"',
+272 verbose headers   'content-type': 'application/json',
+272 verbose headers   'cache-control': 'max-age=300',
+272 verbose headers   'content-length': '61360',
+272 verbose headers   'accept-ranges': 'bytes',
+272 verbose headers   date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+272 verbose headers   via: '1.1 varnish',
+272 verbose headers   age: '113',
+272 verbose headers   connection: 'keep-alive',
+272 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+272 verbose headers   'x-cache': 'HIT',
+272 verbose headers   'x-cache-hits': '494',
+272 verbose headers   'x-timer': 'S1456285173.465812,VS0,VE0',
+272 verbose headers   vary: 'Accept' }
+273 silly get cb [ 200,
+273 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+273 silly get     etag: '"4ZTIKJ17VT5GZJ0SWP30PJION"',
+273 silly get     'content-type': 'application/json',
+273 silly get     'cache-control': 'max-age=300',
+273 silly get     'content-length': '61360',
+273 silly get     'accept-ranges': 'bytes',
+273 silly get     date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+273 silly get     via: '1.1 varnish',
+273 silly get     age: '113',
+273 silly get     connection: 'keep-alive',
+273 silly get     'x-served-by': 'cache-sjc3120-SJC',
+273 silly get     'x-cache': 'HIT',
+273 silly get     'x-cache-hits': '494',
+273 silly get     'x-timer': 'S1456285173.465812,VS0,VE0',
+273 silly get     vary: 'Accept' } ]
+274 verbose get saving commander to /home/raphael/.npm/registry.npmjs.org/commander/.cache.json
+275 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+276 silly resolveWithNewModule commander@2.3.0 checking installable status
+277 silly cache add args [ 'commander@2.3.0', null ]
+278 verbose cache add spec commander@2.3.0
+279 silly cache add parsed spec Result {
+279 silly cache add   raw: 'commander@2.3.0',
+279 silly cache add   scope: null,
+279 silly cache add   name: 'commander',
+279 silly cache add   rawSpec: '2.3.0',
+279 silly cache add   spec: '2.3.0',
+279 silly cache add   type: 'version' }
+280 silly addNamed commander@2.3.0
+281 verbose addNamed "2.3.0" is a plain semver version for commander
+282 silly mapToRegistry name commander
+283 silly mapToRegistry using default registry
+284 silly mapToRegistry registry https://registry.npmjs.org/
+285 silly mapToRegistry uri https://registry.npmjs.org/commander
+286 verbose addNameVersion registry:https://registry.npmjs.org/commander not in flight; fetching
+287 verbose get https://registry.npmjs.org/commander not expired, no request
+288 silly mapToRegistry name commander
+289 silly mapToRegistry using default registry
+290 silly mapToRegistry registry https://registry.npmjs.org/
+291 silly mapToRegistry uri https://registry.npmjs.org/commander
+292 verbose addRemoteTarball https://registry.npmjs.org/commander/-/commander-2.3.0.tgz not in flight; adding
+293 verbose addRemoteTarball [ 'https://registry.npmjs.org/commander/-/commander-2.3.0.tgz',
+293 verbose addRemoteTarball   'fd430e889832ec353b9acd1de217c11cb3eef873' ]
+294 info retry fetch attempt 1 at 12:39:35 AM
+295 info attempt registry request try #1 at 12:39:35 AM
+296 http fetch GET https://registry.npmjs.org/commander/-/commander-2.3.0.tgz
+297 http 200 https://registry.npmjs.org/glob
+298 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+298 verbose headers   etag: '"L8UY1GFQTZGM9BJ8FRYWFLID"',
+298 verbose headers   'content-type': 'application/json',
+298 verbose headers   'cache-control': 'max-age=300',
+298 verbose headers   'content-length': '115888',
+298 verbose headers   'accept-ranges': 'bytes',
+298 verbose headers   date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+298 verbose headers   via: '1.1 varnish',
+298 verbose headers   age: '34',
+298 verbose headers   connection: 'keep-alive',
+298 verbose headers   'x-served-by': 'cache-sjc3131-SJC',
+298 verbose headers   'x-cache': 'HIT',
+298 verbose headers   'x-cache-hits': '3',
+298 verbose headers   'x-timer': 'S1456285173.461480,VS0,VE0',
+298 verbose headers   vary: 'Accept' }
+299 silly get cb [ 200,
+299 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+299 silly get     etag: '"L8UY1GFQTZGM9BJ8FRYWFLID"',
+299 silly get     'content-type': 'application/json',
+299 silly get     'cache-control': 'max-age=300',
+299 silly get     'content-length': '115888',
+299 silly get     'accept-ranges': 'bytes',
+299 silly get     date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+299 silly get     via: '1.1 varnish',
+299 silly get     age: '34',
+299 silly get     connection: 'keep-alive',
+299 silly get     'x-served-by': 'cache-sjc3131-SJC',
+299 silly get     'x-cache': 'HIT',
+299 silly get     'x-cache-hits': '3',
+299 silly get     'x-timer': 'S1456285173.461480,VS0,VE0',
+299 silly get     vary: 'Accept' } ]
+300 verbose get saving glob to /home/raphael/.npm/registry.npmjs.org/glob/.cache.json
+301 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+302 silly resolveWithNewModule glob@3.2.3 checking installable status
+303 silly cache add args [ 'glob@3.2.3', null ]
+304 verbose cache add spec glob@3.2.3
+305 silly cache add parsed spec Result {
+305 silly cache add   raw: 'glob@3.2.3',
+305 silly cache add   scope: null,
+305 silly cache add   name: 'glob',
+305 silly cache add   rawSpec: '3.2.3',
+305 silly cache add   spec: '3.2.3',
+305 silly cache add   type: 'version' }
+306 silly addNamed glob@3.2.3
+307 verbose addNamed "3.2.3" is a plain semver version for glob
+308 silly mapToRegistry name glob
+309 silly mapToRegistry using default registry
+310 silly mapToRegistry registry https://registry.npmjs.org/
+311 silly mapToRegistry uri https://registry.npmjs.org/glob
+312 verbose addNameVersion registry:https://registry.npmjs.org/glob not in flight; fetching
+313 verbose get https://registry.npmjs.org/glob not expired, no request
+314 silly mapToRegistry name glob
+315 silly mapToRegistry using default registry
+316 silly mapToRegistry registry https://registry.npmjs.org/
+317 silly mapToRegistry uri https://registry.npmjs.org/glob
+318 verbose addRemoteTarball https://registry.npmjs.org/glob/-/glob-3.2.3.tgz not in flight; adding
+319 verbose addRemoteTarball [ 'https://registry.npmjs.org/glob/-/glob-3.2.3.tgz',
+319 verbose addRemoteTarball   'e313eeb249c7affaa5c475286b0e115b59839467' ]
+320 info retry fetch attempt 1 at 12:39:35 AM
+321 info attempt registry request try #1 at 12:39:35 AM
+322 http fetch GET https://registry.npmjs.org/glob/-/glob-3.2.3.tgz
+323 http fetch 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz
+324 silly fetchAndShaCheck shasum 4dbc2fe674e71949caf3fb2695ce7f2dc1d9a8d1
+325 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz not in flight; adding
+326 verbose addTmpTarball already have metadata; skipping unpack for escape-string-regexp@1.0.2
+327 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+328 silly cache afterAdd escape-string-regexp@1.0.2
+329 verbose afterAdd /home/raphael/.npm/escape-string-regexp/1.0.2/package/package.json not in flight; writing
+330 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+331 verbose afterAdd /home/raphael/.npm/escape-string-regexp/1.0.2/package/package.json written
+332 http 200 https://registry.npmjs.org/jade
+333 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+333 verbose headers   etag: '"2DFAQN37529KEP4F98BBJD6VV"',
+333 verbose headers   'content-type': 'application/json',
+333 verbose headers   'cache-control': 'max-age=300',
+333 verbose headers   'content-length': '148417',
+333 verbose headers   'accept-ranges': 'bytes',
+333 verbose headers   date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+333 verbose headers   via: '1.1 varnish',
+333 verbose headers   age: '90',
+333 verbose headers   connection: 'keep-alive',
+333 verbose headers   'x-served-by': 'cache-sjc3132-SJC',
+333 verbose headers   'x-cache': 'HIT',
+333 verbose headers   'x-cache-hits': '1',
+333 verbose headers   'x-timer': 'S1456285173.496344,VS0,VE1',
+333 verbose headers   vary: 'Accept' }
+334 silly get cb [ 200,
+334 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+334 silly get     etag: '"2DFAQN37529KEP4F98BBJD6VV"',
+334 silly get     'content-type': 'application/json',
+334 silly get     'cache-control': 'max-age=300',
+334 silly get     'content-length': '148417',
+334 silly get     'accept-ranges': 'bytes',
+334 silly get     date: 'Wed, 24 Feb 2016 03:39:33 GMT',
+334 silly get     via: '1.1 varnish',
+334 silly get     age: '90',
+334 silly get     connection: 'keep-alive',
+334 silly get     'x-served-by': 'cache-sjc3132-SJC',
+334 silly get     'x-cache': 'HIT',
+334 silly get     'x-cache-hits': '1',
+334 silly get     'x-timer': 'S1456285173.496344,VS0,VE1',
+334 silly get     vary: 'Accept' } ]
+335 verbose get saving jade to /home/raphael/.npm/registry.npmjs.org/jade/.cache.json
+336 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+337 silly resolveWithNewModule jade@0.26.3 checking installable status
+338 silly cache add args [ 'jade@0.26.3', null ]
+339 verbose cache add spec jade@0.26.3
+340 silly cache add parsed spec Result {
+340 silly cache add   raw: 'jade@0.26.3',
+340 silly cache add   scope: null,
+340 silly cache add   name: 'jade',
+340 silly cache add   rawSpec: '0.26.3',
+340 silly cache add   spec: '0.26.3',
+340 silly cache add   type: 'version' }
+341 silly addNamed jade@0.26.3
+342 verbose addNamed "0.26.3" is a plain semver version for jade
+343 silly mapToRegistry name jade
+344 silly mapToRegistry using default registry
+345 silly mapToRegistry registry https://registry.npmjs.org/
+346 silly mapToRegistry uri https://registry.npmjs.org/jade
+347 verbose addNameVersion registry:https://registry.npmjs.org/jade not in flight; fetching
+348 verbose get https://registry.npmjs.org/jade not expired, no request
+349 silly mapToRegistry name jade
+350 silly mapToRegistry using default registry
+351 silly mapToRegistry registry https://registry.npmjs.org/
+352 silly mapToRegistry uri https://registry.npmjs.org/jade
+353 verbose addRemoteTarball https://registry.npmjs.org/jade/-/jade-0.26.3.tgz not in flight; adding
+354 verbose addRemoteTarball [ 'https://registry.npmjs.org/jade/-/jade-0.26.3.tgz',
+354 verbose addRemoteTarball   '8f10d7977d8d79f2f6ff862a81b0513ccb25686c' ]
+355 info retry fetch attempt 1 at 12:39:36 AM
+356 info attempt registry request try #1 at 12:39:36 AM
+357 http fetch GET https://registry.npmjs.org/jade/-/jade-0.26.3.tgz
+358 http fetch 200 https://registry.npmjs.org/diff/-/diff-1.4.0.tgz
+359 silly fetchAndShaCheck shasum 7f28d2eb9ee7b15a97efd89ce63dcfdaa3ccbabf
+360 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/diff/-/diff-1.4.0.tgz not in flight; adding
+361 verbose addTmpTarball already have metadata; skipping unpack for diff@1.4.0
+362 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+363 silly cache afterAdd diff@1.4.0
+364 verbose afterAdd /home/raphael/.npm/diff/1.4.0/package/package.json not in flight; writing
+365 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+366 verbose afterAdd /home/raphael/.npm/diff/1.4.0/package/package.json written
+367 http fetch 200 https://registry.npmjs.org/growl/-/growl-1.8.1.tgz
+368 silly fetchAndShaCheck shasum 4b2dec8d907e93db336624dcec0183502f8c9428
+369 http fetch 200 https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz
+370 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/growl/-/growl-1.8.1.tgz not in flight; adding
+371 verbose addTmpTarball already have metadata; skipping unpack for growl@1.8.1
+372 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+373 silly fetchAndShaCheck shasum ff1ed1e61169d06b3cf2d588e188b18d8847e17e
+374 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz not in flight; adding
+375 verbose addTmpTarball already have metadata; skipping unpack for supports-color@1.2.0
+376 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+377 silly cache afterAdd growl@1.8.1
+378 verbose afterAdd /home/raphael/.npm/growl/1.8.1/package/package.json not in flight; writing
+379 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+380 silly cache afterAdd supports-color@1.2.0
+381 verbose afterAdd /home/raphael/.npm/supports-color/1.2.0/package/package.json not in flight; writing
+382 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+383 verbose afterAdd /home/raphael/.npm/growl/1.8.1/package/package.json written
+384 http fetch 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz
+385 verbose afterAdd /home/raphael/.npm/supports-color/1.2.0/package/package.json written
+386 silly fetchAndShaCheck shasum 30057438eac6cf7f8c4767f38648d6697d75c903
+387 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz not in flight; adding
+388 verbose addTmpTarball already have metadata; skipping unpack for mkdirp@0.5.1
+389 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+390 silly cache afterAdd mkdirp@0.5.1
+391 verbose afterAdd /home/raphael/.npm/mkdirp/0.5.1/package/package.json not in flight; writing
+392 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+393 verbose afterAdd /home/raphael/.npm/mkdirp/0.5.1/package/package.json written
+394 http fetch 200 https://registry.npmjs.org/commander/-/commander-2.3.0.tgz
+395 silly fetchAndShaCheck shasum fd430e889832ec353b9acd1de217c11cb3eef873
+396 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/commander/-/commander-2.3.0.tgz not in flight; adding
+397 verbose addTmpTarball already have metadata; skipping unpack for commander@2.3.0
+398 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+399 silly cache afterAdd commander@2.3.0
+400 verbose afterAdd /home/raphael/.npm/commander/2.3.0/package/package.json not in flight; writing
+401 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+402 verbose afterAdd /home/raphael/.npm/commander/2.3.0/package/package.json written
+403 http fetch 200 https://registry.npmjs.org/glob/-/glob-3.2.3.tgz
+404 silly fetchAndShaCheck shasum e313eeb249c7affaa5c475286b0e115b59839467
+405 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/glob/-/glob-3.2.3.tgz not in flight; adding
+406 verbose addTmpTarball already have metadata; skipping unpack for glob@3.2.3
+407 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+408 silly cache afterAdd glob@3.2.3
+409 verbose afterAdd /home/raphael/.npm/glob/3.2.3/package/package.json not in flight; writing
+410 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+411 verbose afterAdd /home/raphael/.npm/glob/3.2.3/package/package.json written
+412 http fetch 200 https://registry.npmjs.org/jade/-/jade-0.26.3.tgz
+413 silly fetchAndShaCheck shasum 8f10d7977d8d79f2f6ff862a81b0513ccb25686c
+414 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/jade/-/jade-0.26.3.tgz not in flight; adding
+415 verbose addTmpTarball already have metadata; skipping unpack for jade@0.26.3
+416 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+417 silly cache afterAdd jade@0.26.3
+418 verbose afterAdd /home/raphael/.npm/jade/0.26.3/package/package.json not in flight; writing
+419 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+420 verbose afterAdd /home/raphael/.npm/jade/0.26.3/package/package.json written
+421 silly fetchNamedPackageData minimatch
+422 silly mapToRegistry name minimatch
+423 silly mapToRegistry using default registry
+424 silly mapToRegistry registry https://registry.npmjs.org/
+425 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+426 silly fetchNamedPackageData graceful-fs
+427 silly mapToRegistry name graceful-fs
+428 silly mapToRegistry using default registry
+429 silly mapToRegistry registry https://registry.npmjs.org/
+430 silly mapToRegistry uri https://registry.npmjs.org/graceful-fs
+431 verbose request uri https://registry.npmjs.org/minimatch
+432 verbose request no auth needed
+433 info attempt registry request try #1 at 12:39:38 AM
+434 http request GET https://registry.npmjs.org/minimatch
+435 verbose request uri https://registry.npmjs.org/graceful-fs
+436 verbose request no auth needed
+437 info attempt registry request try #1 at 12:39:38 AM
+438 http request GET https://registry.npmjs.org/graceful-fs
+439 http 200 https://registry.npmjs.org/minimatch
+440 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+440 verbose headers   etag: '"63CH2B3DEW46ISAV3CJDR8BFW"',
+440 verbose headers   'content-type': 'application/json',
+440 verbose headers   'cache-control': 'max-age=300',
+440 verbose headers   'content-length': '46202',
+440 verbose headers   'accept-ranges': 'bytes',
+440 verbose headers   date: 'Wed, 24 Feb 2016 03:39:39 GMT',
+440 verbose headers   via: '1.1 varnish',
+440 verbose headers   age: '39',
+440 verbose headers   connection: 'keep-alive',
+440 verbose headers   'x-served-by': 'cache-sjc3131-SJC',
+440 verbose headers   'x-cache': 'HIT',
+440 verbose headers   'x-cache-hits': '7',
+440 verbose headers   'x-timer': 'S1456285179.606579,VS0,VE0',
+440 verbose headers   vary: 'Accept' }
+441 silly get cb [ 200,
+441 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+441 silly get     etag: '"63CH2B3DEW46ISAV3CJDR8BFW"',
+441 silly get     'content-type': 'application/json',
+441 silly get     'cache-control': 'max-age=300',
+441 silly get     'content-length': '46202',
+441 silly get     'accept-ranges': 'bytes',
+441 silly get     date: 'Wed, 24 Feb 2016 03:39:39 GMT',
+441 silly get     via: '1.1 varnish',
+441 silly get     age: '39',
+441 silly get     connection: 'keep-alive',
+441 silly get     'x-served-by': 'cache-sjc3131-SJC',
+441 silly get     'x-cache': 'HIT',
+441 silly get     'x-cache-hits': '7',
+441 silly get     'x-timer': 'S1456285179.606579,VS0,VE0',
+441 silly get     vary: 'Accept' } ]
+442 verbose get saving minimatch to /home/raphael/.npm/registry.npmjs.org/minimatch/.cache.json
+443 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+444 http 200 https://registry.npmjs.org/graceful-fs
+445 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+445 verbose headers   etag: '"A8NB6IQZA1N7IFTRNSVSVDCWK"',
+445 verbose headers   'content-type': 'application/json',
+445 verbose headers   'cache-control': 'max-age=300',
+445 verbose headers   'content-length': '45604',
+445 verbose headers   'accept-ranges': 'bytes',
+445 verbose headers   date: 'Wed, 24 Feb 2016 03:39:39 GMT',
+445 verbose headers   via: '1.1 varnish',
+445 verbose headers   age: '26',
+445 verbose headers   connection: 'keep-alive',
+445 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+445 verbose headers   'x-cache': 'HIT',
+445 verbose headers   'x-cache-hits': '4',
+445 verbose headers   'x-timer': 'S1456285179.624645,VS0,VE0',
+445 verbose headers   vary: 'Accept' }
+446 silly get cb [ 200,
+446 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+446 silly get     etag: '"A8NB6IQZA1N7IFTRNSVSVDCWK"',
+446 silly get     'content-type': 'application/json',
+446 silly get     'cache-control': 'max-age=300',
+446 silly get     'content-length': '45604',
+446 silly get     'accept-ranges': 'bytes',
+446 silly get     date: 'Wed, 24 Feb 2016 03:39:39 GMT',
+446 silly get     via: '1.1 varnish',
+446 silly get     age: '26',
+446 silly get     connection: 'keep-alive',
+446 silly get     'x-served-by': 'cache-sjc3123-SJC',
+446 silly get     'x-cache': 'HIT',
+446 silly get     'x-cache-hits': '4',
+446 silly get     'x-timer': 'S1456285179.624645,VS0,VE0',
+446 silly get     vary: 'Accept' } ]
+447 verbose get saving graceful-fs to /home/raphael/.npm/registry.npmjs.org/graceful-fs/.cache.json
+448 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+449 silly resolveWithNewModule minimatch@0.2.14 checking installable status
+450 silly cache add args [ 'minimatch@~0.2.11', null ]
+451 verbose cache add spec minimatch@~0.2.11
+452 silly cache add parsed spec Result {
+452 silly cache add   raw: 'minimatch@~0.2.11',
+452 silly cache add   scope: null,
+452 silly cache add   name: 'minimatch',
+452 silly cache add   rawSpec: '~0.2.11',
+452 silly cache add   spec: '>=0.2.11 <0.3.0',
+452 silly cache add   type: 'range' }
+453 silly addNamed minimatch@>=0.2.11 <0.3.0
+454 verbose addNamed ">=0.2.11 <0.3.0" is a valid semver range for minimatch
+455 silly addNameRange { name: 'minimatch', range: '>=0.2.11 <0.3.0', hasData: false }
+456 silly mapToRegistry name minimatch
+457 silly mapToRegistry using default registry
+458 silly mapToRegistry registry https://registry.npmjs.org/
+459 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+460 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+461 verbose get https://registry.npmjs.org/minimatch not expired, no request
+462 silly addNameRange number 2 { name: 'minimatch', range: '>=0.2.11 <0.3.0', hasData: true }
+463 silly addNameRange versions [ 'minimatch',
+463 silly addNameRange   [ '0.0.1',
+463 silly addNameRange     '0.0.2',
+463 silly addNameRange     '0.0.4',
+463 silly addNameRange     '0.0.5',
+463 silly addNameRange     '0.1.1',
+463 silly addNameRange     '0.1.2',
+463 silly addNameRange     '0.1.3',
+463 silly addNameRange     '0.1.4',
+463 silly addNameRange     '0.1.5',
+463 silly addNameRange     '0.2.0',
+463 silly addNameRange     '0.2.2',
+463 silly addNameRange     '0.2.3',
+463 silly addNameRange     '0.2.4',
+463 silly addNameRange     '0.2.5',
+463 silly addNameRange     '0.2.6',
+463 silly addNameRange     '0.2.7',
+463 silly addNameRange     '0.2.8',
+463 silly addNameRange     '0.2.9',
+463 silly addNameRange     '0.2.10',
+463 silly addNameRange     '0.2.11',
+463 silly addNameRange     '0.2.12',
+463 silly addNameRange     '0.2.13',
+463 silly addNameRange     '0.2.14',
+463 silly addNameRange     '0.3.0',
+463 silly addNameRange     '0.4.0',
+463 silly addNameRange     '1.0.0',
+463 silly addNameRange     '2.0.0',
+463 silly addNameRange     '2.0.1',
+463 silly addNameRange     '2.0.2',
+463 silly addNameRange     '2.0.3',
+463 silly addNameRange     '2.0.4',
+463 silly addNameRange     '2.0.5',
+463 silly addNameRange     '2.0.6',
+463 silly addNameRange     '2.0.7',
+463 silly addNameRange     '2.0.8',
+463 silly addNameRange     '2.0.9',
+463 silly addNameRange     '2.0.10',
+463 silly addNameRange     '3.0.0' ] ]
+464 silly addNamed minimatch@0.2.14
+465 verbose addNamed "0.2.14" is a plain semver version for minimatch
+466 silly mapToRegistry name minimatch
+467 silly mapToRegistry using default registry
+468 silly mapToRegistry registry https://registry.npmjs.org/
+469 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+470 verbose addRemoteTarball https://registry.npmjs.org/minimatch/-/minimatch-0.2.14.tgz not in flight; adding
+471 verbose addRemoteTarball [ 'https://registry.npmjs.org/minimatch/-/minimatch-0.2.14.tgz',
+471 verbose addRemoteTarball   'c74e780574f63c6f9a090e90efbe6ef53a6a756a' ]
+472 info retry fetch attempt 1 at 12:39:40 AM
+473 info attempt registry request try #1 at 12:39:40 AM
+474 http fetch GET https://registry.npmjs.org/minimatch/-/minimatch-0.2.14.tgz
+475 silly resolveWithNewModule graceful-fs@2.0.3 checking installable status
+476 silly cache add args [ 'graceful-fs@~2.0.0', null ]
+477 verbose cache add spec graceful-fs@~2.0.0
+478 silly cache add parsed spec Result {
+478 silly cache add   raw: 'graceful-fs@~2.0.0',
+478 silly cache add   scope: null,
+478 silly cache add   name: 'graceful-fs',
+478 silly cache add   rawSpec: '~2.0.0',
+478 silly cache add   spec: '>=2.0.0 <2.1.0',
+478 silly cache add   type: 'range' }
+479 silly addNamed graceful-fs@>=2.0.0 <2.1.0
+480 verbose addNamed ">=2.0.0 <2.1.0" is a valid semver range for graceful-fs
+481 silly addNameRange { name: 'graceful-fs', range: '>=2.0.0 <2.1.0', hasData: false }
+482 silly mapToRegistry name graceful-fs
+483 silly mapToRegistry using default registry
+484 silly mapToRegistry registry https://registry.npmjs.org/
+485 silly mapToRegistry uri https://registry.npmjs.org/graceful-fs
+486 verbose addNameRange registry:https://registry.npmjs.org/graceful-fs not in flight; fetching
+487 verbose get https://registry.npmjs.org/graceful-fs not expired, no request
+488 silly addNameRange number 2 { name: 'graceful-fs', range: '>=2.0.0 <2.1.0', hasData: true }
+489 silly addNameRange versions [ 'graceful-fs',
+489 silly addNameRange   [ '1.0.0',
+489 silly addNameRange     '1.0.1',
+489 silly addNameRange     '1.0.2',
+489 silly addNameRange     '1.1.0',
+489 silly addNameRange     '1.1.1',
+489 silly addNameRange     '1.1.2',
+489 silly addNameRange     '1.1.3',
+489 silly addNameRange     '1.1.4',
+489 silly addNameRange     '1.1.5',
+489 silly addNameRange     '1.1.6',
+489 silly addNameRange     '1.1.7',
+489 silly addNameRange     '1.1.8',
+489 silly addNameRange     '1.1.9',
+489 silly addNameRange     '1.1.10',
+489 silly addNameRange     '1.1.11',
+489 silly addNameRange     '1.1.12',
+489 silly addNameRange     '1.1.13',
+489 silly addNameRange     '1.1.14',
+489 silly addNameRange     '1.2.0',
+489 silly addNameRange     '1.2.1',
+489 silly addNameRange     '1.2.2',
+489 silly addNameRange     '1.2.3',
+489 silly addNameRange     '2.0.0',
+489 silly addNameRange     '2.0.1',
+489 silly addNameRange     '2.0.2',
+489 silly addNameRange     '2.0.3',
+489 silly addNameRange     '3.0.0',
+489 silly addNameRange     '3.0.1',
+489 silly addNameRange     '3.0.2',
+489 silly addNameRange     '3.0.3',
+489 silly addNameRange     '3.0.4',
+489 silly addNameRange     '3.0.5',
+489 silly addNameRange     '3.0.6',
+489 silly addNameRange     '3.0.7',
+489 silly addNameRange     '3.0.8',
+489 silly addNameRange     '4.1.0',
+489 silly addNameRange     '4.1.1',
+489 silly addNameRange     '4.1.2',
+489 silly addNameRange     '4.1.3' ] ]
+490 silly addNamed graceful-fs@2.0.3
+491 verbose addNamed "2.0.3" is a plain semver version for graceful-fs
+492 warn deprecated graceful-fs@2.0.3: graceful-fs version 3 and before will fail on newer node releases. Please update to graceful-fs@^4.0.0 as soon as possible.
+493 silly mapToRegistry name graceful-fs
+494 silly mapToRegistry using default registry
+495 silly mapToRegistry registry https://registry.npmjs.org/
+496 silly mapToRegistry uri https://registry.npmjs.org/graceful-fs
+497 verbose addRemoteTarball https://registry.npmjs.org/graceful-fs/-/graceful-fs-2.0.3.tgz not in flight; adding
+498 verbose addRemoteTarball [ 'https://registry.npmjs.org/graceful-fs/-/graceful-fs-2.0.3.tgz',
+498 verbose addRemoteTarball   '7cd2cdb228a4a3f36e95efa6cc142de7d1a136d0' ]
+499 info retry fetch attempt 1 at 12:39:40 AM
+500 info attempt registry request try #1 at 12:39:40 AM
+501 http fetch GET https://registry.npmjs.org/graceful-fs/-/graceful-fs-2.0.3.tgz
+502 http fetch 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-2.0.3.tgz
+503 silly fetchAndShaCheck shasum 7cd2cdb228a4a3f36e95efa6cc142de7d1a136d0
+504 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/graceful-fs/-/graceful-fs-2.0.3.tgz not in flight; adding
+505 verbose addTmpTarball already have metadata; skipping unpack for graceful-fs@2.0.3
+506 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+507 silly cache afterAdd graceful-fs@2.0.3
+508 verbose afterAdd /home/raphael/.npm/graceful-fs/2.0.3/package/package.json not in flight; writing
+509 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+510 verbose afterAdd /home/raphael/.npm/graceful-fs/2.0.3/package/package.json written
+511 http fetch 200 https://registry.npmjs.org/minimatch/-/minimatch-0.2.14.tgz
+512 silly fetchAndShaCheck shasum c74e780574f63c6f9a090e90efbe6ef53a6a756a
+513 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/minimatch/-/minimatch-0.2.14.tgz not in flight; adding
+514 verbose addTmpTarball already have metadata; skipping unpack for minimatch@0.2.14
+515 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+516 silly cache afterAdd minimatch@0.2.14
+517 verbose afterAdd /home/raphael/.npm/minimatch/0.2.14/package/package.json not in flight; writing
+518 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+519 verbose afterAdd /home/raphael/.npm/minimatch/0.2.14/package/package.json written
+520 silly fetchNamedPackageData lru-cache
+521 silly mapToRegistry name lru-cache
+522 silly mapToRegistry using default registry
+523 silly mapToRegistry registry https://registry.npmjs.org/
+524 silly mapToRegistry uri https://registry.npmjs.org/lru-cache
+525 silly fetchNamedPackageData sigmund
+526 silly mapToRegistry name sigmund
+527 silly mapToRegistry using default registry
+528 silly mapToRegistry registry https://registry.npmjs.org/
+529 silly mapToRegistry uri https://registry.npmjs.org/sigmund
+530 verbose request uri https://registry.npmjs.org/lru-cache
+531 verbose request no auth needed
+532 info attempt registry request try #1 at 12:39:41 AM
+533 http request GET https://registry.npmjs.org/lru-cache
+534 verbose request uri https://registry.npmjs.org/sigmund
+535 verbose request no auth needed
+536 info attempt registry request try #1 at 12:39:41 AM
+537 http request GET https://registry.npmjs.org/sigmund
+538 http 200 https://registry.npmjs.org/sigmund
+539 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+539 verbose headers   etag: '"1TUX00X8YEKNFED6GGWS214S3"',
+539 verbose headers   'content-type': 'application/json',
+539 verbose headers   'cache-control': 'max-age=300',
+539 verbose headers   'content-length': '4604',
+539 verbose headers   'accept-ranges': 'bytes',
+539 verbose headers   date: 'Wed, 24 Feb 2016 03:39:42 GMT',
+539 verbose headers   via: '1.1 varnish',
+539 verbose headers   age: '123',
+539 verbose headers   connection: 'keep-alive',
+539 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+539 verbose headers   'x-cache': 'HIT',
+539 verbose headers   'x-cache-hits': '11',
+539 verbose headers   'x-timer': 'S1456285182.392058,VS0,VE0',
+539 verbose headers   vary: 'Accept' }
+540 silly get cb [ 200,
+540 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+540 silly get     etag: '"1TUX00X8YEKNFED6GGWS214S3"',
+540 silly get     'content-type': 'application/json',
+540 silly get     'cache-control': 'max-age=300',
+540 silly get     'content-length': '4604',
+540 silly get     'accept-ranges': 'bytes',
+540 silly get     date: 'Wed, 24 Feb 2016 03:39:42 GMT',
+540 silly get     via: '1.1 varnish',
+540 silly get     age: '123',
+540 silly get     connection: 'keep-alive',
+540 silly get     'x-served-by': 'cache-sjc3133-SJC',
+540 silly get     'x-cache': 'HIT',
+540 silly get     'x-cache-hits': '11',
+540 silly get     'x-timer': 'S1456285182.392058,VS0,VE0',
+540 silly get     vary: 'Accept' } ]
+541 verbose get saving sigmund to /home/raphael/.npm/registry.npmjs.org/sigmund/.cache.json
+542 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+543 silly resolveWithNewModule sigmund@1.0.1 checking installable status
+544 silly cache add args [ 'sigmund@~1.0.0', null ]
+545 verbose cache add spec sigmund@~1.0.0
+546 silly cache add parsed spec Result {
+546 silly cache add   raw: 'sigmund@~1.0.0',
+546 silly cache add   scope: null,
+546 silly cache add   name: 'sigmund',
+546 silly cache add   rawSpec: '~1.0.0',
+546 silly cache add   spec: '>=1.0.0 <1.1.0',
+546 silly cache add   type: 'range' }
+547 silly addNamed sigmund@>=1.0.0 <1.1.0
+548 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for sigmund
+549 silly addNameRange { name: 'sigmund', range: '>=1.0.0 <1.1.0', hasData: false }
+550 silly mapToRegistry name sigmund
+551 silly mapToRegistry using default registry
+552 silly mapToRegistry registry https://registry.npmjs.org/
+553 silly mapToRegistry uri https://registry.npmjs.org/sigmund
+554 verbose addNameRange registry:https://registry.npmjs.org/sigmund not in flight; fetching
+555 verbose get https://registry.npmjs.org/sigmund not expired, no request
+556 silly addNameRange number 2 { name: 'sigmund', range: '>=1.0.0 <1.1.0', hasData: true }
+557 silly addNameRange versions [ 'sigmund', [ '1.0.0', '1.0.1' ] ]
+558 silly addNamed sigmund@1.0.1
+559 verbose addNamed "1.0.1" is a plain semver version for sigmund
+560 silly mapToRegistry name sigmund
+561 silly mapToRegistry using default registry
+562 silly mapToRegistry registry https://registry.npmjs.org/
+563 silly mapToRegistry uri https://registry.npmjs.org/sigmund
+564 verbose addRemoteTarball https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz not in flight; adding
+565 verbose addRemoteTarball [ 'https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz',
+565 verbose addRemoteTarball   '3ff21f198cad2175f9f3b781853fd94d0d19b590' ]
+566 info retry fetch attempt 1 at 12:39:42 AM
+567 info attempt registry request try #1 at 12:39:42 AM
+568 http fetch GET https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz
+569 http 200 https://registry.npmjs.org/lru-cache
+570 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+570 verbose headers   etag: '"62VS8Y65C289F4WMRNVWLEBPT"',
+570 verbose headers   'content-type': 'application/json',
+570 verbose headers   'cache-control': 'max-age=300',
+570 verbose headers   'content-length': '48146',
+570 verbose headers   'accept-ranges': 'bytes',
+570 verbose headers   date: 'Wed, 24 Feb 2016 03:39:42 GMT',
+570 verbose headers   via: '1.1 varnish',
+570 verbose headers   age: '256',
+570 verbose headers   connection: 'keep-alive',
+570 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+570 verbose headers   'x-cache': 'HIT',
+570 verbose headers   'x-cache-hits': '17',
+570 verbose headers   'x-timer': 'S1456285182.344367,VS0,VE0',
+570 verbose headers   vary: 'Accept' }
+571 silly get cb [ 200,
+571 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+571 silly get     etag: '"62VS8Y65C289F4WMRNVWLEBPT"',
+571 silly get     'content-type': 'application/json',
+571 silly get     'cache-control': 'max-age=300',
+571 silly get     'content-length': '48146',
+571 silly get     'accept-ranges': 'bytes',
+571 silly get     date: 'Wed, 24 Feb 2016 03:39:42 GMT',
+571 silly get     via: '1.1 varnish',
+571 silly get     age: '256',
+571 silly get     connection: 'keep-alive',
+571 silly get     'x-served-by': 'cache-sjc3133-SJC',
+571 silly get     'x-cache': 'HIT',
+571 silly get     'x-cache-hits': '17',
+571 silly get     'x-timer': 'S1456285182.344367,VS0,VE0',
+571 silly get     vary: 'Accept' } ]
+572 verbose get saving lru-cache to /home/raphael/.npm/registry.npmjs.org/lru-cache/.cache.json
+573 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+574 silly resolveWithNewModule lru-cache@2.7.3 checking installable status
+575 silly cache add args [ 'lru-cache@2', null ]
+576 verbose cache add spec lru-cache@2
+577 silly cache add parsed spec Result {
+577 silly cache add   raw: 'lru-cache@2',
+577 silly cache add   scope: null,
+577 silly cache add   name: 'lru-cache',
+577 silly cache add   rawSpec: '2',
+577 silly cache add   spec: '>=2.0.0 <3.0.0',
+577 silly cache add   type: 'range' }
+578 silly addNamed lru-cache@>=2.0.0 <3.0.0
+579 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for lru-cache
+580 silly addNameRange { name: 'lru-cache', range: '>=2.0.0 <3.0.0', hasData: false }
+581 silly mapToRegistry name lru-cache
+582 silly mapToRegistry using default registry
+583 silly mapToRegistry registry https://registry.npmjs.org/
+584 silly mapToRegistry uri https://registry.npmjs.org/lru-cache
+585 verbose addNameRange registry:https://registry.npmjs.org/lru-cache not in flight; fetching
+586 verbose get https://registry.npmjs.org/lru-cache not expired, no request
+587 silly addNameRange number 2 { name: 'lru-cache', range: '>=2.0.0 <3.0.0', hasData: true }
+588 silly addNameRange versions [ 'lru-cache',
+588 silly addNameRange   [ '1.0.1',
+588 silly addNameRange     '1.0.2',
+588 silly addNameRange     '1.0.3',
+588 silly addNameRange     '1.0.4',
+588 silly addNameRange     '1.0.5',
+588 silly addNameRange     '1.0.6',
+588 silly addNameRange     '1.1.0',
+588 silly addNameRange     '1.1.1',
+588 silly addNameRange     '2.0.0',
+588 silly addNameRange     '2.0.1',
+588 silly addNameRange     '2.0.2',
+588 silly addNameRange     '2.0.3',
+588 silly addNameRange     '2.0.4',
+588 silly addNameRange     '2.1.0',
+588 silly addNameRange     '2.2.0',
+588 silly addNameRange     '2.2.1',
+588 silly addNameRange     '2.2.2',
+588 silly addNameRange     '2.2.4',
+588 silly addNameRange     '2.3.0',
+588 silly addNameRange     '2.3.1',
+588 silly addNameRange     '2.5.0',
+588 silly addNameRange     '2.5.1',
+588 silly addNameRange     '2.5.2',
+588 silly addNameRange     '2.6.0',
+588 silly addNameRange     '2.6.1',
+588 silly addNameRange     '2.6.2',
+588 silly addNameRange     '2.6.3',
+588 silly addNameRange     '2.6.4',
+588 silly addNameRange     '2.6.5',
+588 silly addNameRange     '2.7.0',
+588 silly addNameRange     '2.7.1',
+588 silly addNameRange     '2.7.2',
+588 silly addNameRange     '2.7.3',
+588 silly addNameRange     '3.0.0',
+588 silly addNameRange     '3.1.0',
+588 silly addNameRange     '3.1.1',
+588 silly addNameRange     '3.1.2',
+588 silly addNameRange     '3.2.0',
+588 silly addNameRange     '4.0.0' ] ]
+589 silly addNamed lru-cache@2.7.3
+590 verbose addNamed "2.7.3" is a plain semver version for lru-cache
+591 silly mapToRegistry name lru-cache
+592 silly mapToRegistry using default registry
+593 silly mapToRegistry registry https://registry.npmjs.org/
+594 silly mapToRegistry uri https://registry.npmjs.org/lru-cache
+595 verbose addRemoteTarball https://registry.npmjs.org/lru-cache/-/lru-cache-2.7.3.tgz not in flight; adding
+596 verbose addRemoteTarball [ 'https://registry.npmjs.org/lru-cache/-/lru-cache-2.7.3.tgz',
+596 verbose addRemoteTarball   '6d4524e8b955f95d4f5b58851ce21dd72fb4e952' ]
+597 info retry fetch attempt 1 at 12:39:43 AM
+598 info attempt registry request try #1 at 12:39:43 AM
+599 http fetch GET https://registry.npmjs.org/lru-cache/-/lru-cache-2.7.3.tgz
+600 http fetch 200 https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz
+601 silly fetchAndShaCheck shasum 3ff21f198cad2175f9f3b781853fd94d0d19b590
+602 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz not in flight; adding
+603 verbose addTmpTarball already have metadata; skipping unpack for sigmund@1.0.1
+604 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+605 silly cache afterAdd sigmund@1.0.1
+606 verbose afterAdd /home/raphael/.npm/sigmund/1.0.1/package/package.json not in flight; writing
+607 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+608 verbose afterAdd /home/raphael/.npm/sigmund/1.0.1/package/package.json written
+609 http fetch 200 https://registry.npmjs.org/lru-cache/-/lru-cache-2.7.3.tgz
+610 silly fetchAndShaCheck shasum 6d4524e8b955f95d4f5b58851ce21dd72fb4e952
+611 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/lru-cache/-/lru-cache-2.7.3.tgz not in flight; adding
+612 verbose addTmpTarball already have metadata; skipping unpack for lru-cache@2.7.3
+613 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+614 silly cache afterAdd lru-cache@2.7.3
+615 verbose afterAdd /home/raphael/.npm/lru-cache/2.7.3/package/package.json not in flight; writing
+616 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+617 verbose afterAdd /home/raphael/.npm/lru-cache/2.7.3/package/package.json written
+618 silly fetchNamedPackageData commander
+619 silly mapToRegistry name commander
+620 silly mapToRegistry using default registry
+621 silly mapToRegistry registry https://registry.npmjs.org/
+622 silly mapToRegistry uri https://registry.npmjs.org/commander
+623 silly resolveWithNewModule commander@0.6.1 checking installable status
+624 silly cache add args [ 'commander@0.6.1', null ]
+625 verbose cache add spec commander@0.6.1
+626 silly fetchNamedPackageData mkdirp
+627 silly mapToRegistry name mkdirp
+628 silly mapToRegistry using default registry
+629 silly mapToRegistry registry https://registry.npmjs.org/
+630 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+631 silly resolveWithNewModule mkdirp@0.3.0 checking installable status
+632 silly cache add args [ 'mkdirp@0.3.0', null ]
+633 verbose cache add spec mkdirp@0.3.0
+634 silly cache add parsed spec Result {
+634 silly cache add   raw: 'commander@0.6.1',
+634 silly cache add   scope: null,
+634 silly cache add   name: 'commander',
+634 silly cache add   rawSpec: '0.6.1',
+634 silly cache add   spec: '0.6.1',
+634 silly cache add   type: 'version' }
+635 silly addNamed commander@0.6.1
+636 verbose addNamed "0.6.1" is a plain semver version for commander
+637 silly mapToRegistry name commander
+638 silly mapToRegistry using default registry
+639 silly mapToRegistry registry https://registry.npmjs.org/
+640 silly mapToRegistry uri https://registry.npmjs.org/commander
+641 verbose addNameVersion registry:https://registry.npmjs.org/commander not in flight; fetching
+642 silly cache add parsed spec Result {
+642 silly cache add   raw: 'mkdirp@0.3.0',
+642 silly cache add   scope: null,
+642 silly cache add   name: 'mkdirp',
+642 silly cache add   rawSpec: '0.3.0',
+642 silly cache add   spec: '0.3.0',
+642 silly cache add   type: 'version' }
+643 silly addNamed mkdirp@0.3.0
+644 verbose addNamed "0.3.0" is a plain semver version for mkdirp
+645 silly mapToRegistry name mkdirp
+646 silly mapToRegistry using default registry
+647 silly mapToRegistry registry https://registry.npmjs.org/
+648 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+649 verbose addNameVersion registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+650 verbose get https://registry.npmjs.org/commander not expired, no request
+651 verbose get https://registry.npmjs.org/mkdirp not expired, no request
+652 silly mapToRegistry name commander
+653 silly mapToRegistry using default registry
+654 silly mapToRegistry registry https://registry.npmjs.org/
+655 silly mapToRegistry uri https://registry.npmjs.org/commander
+656 verbose addRemoteTarball https://registry.npmjs.org/commander/-/commander-0.6.1.tgz not in flight; adding
+657 verbose addRemoteTarball [ 'https://registry.npmjs.org/commander/-/commander-0.6.1.tgz',
+657 verbose addRemoteTarball   'fa68a14f6a945d54dbbe50d8cdb3320e9e3b1a06' ]
+658 silly mapToRegistry name mkdirp
+659 silly mapToRegistry using default registry
+660 silly mapToRegistry registry https://registry.npmjs.org/
+661 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+662 verbose addRemoteTarball https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.0.tgz not in flight; adding
+663 verbose addRemoteTarball [ 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.0.tgz',
+663 verbose addRemoteTarball   '1bbf5ab1ba827af23575143490426455f481fe1e' ]
+664 info retry fetch attempt 1 at 12:39:44 AM
+665 info attempt registry request try #1 at 12:39:44 AM
+666 http fetch GET https://registry.npmjs.org/commander/-/commander-0.6.1.tgz
+667 info retry fetch attempt 1 at 12:39:44 AM
+668 info attempt registry request try #1 at 12:39:44 AM
+669 http fetch GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.0.tgz
+670 http fetch 200 https://registry.npmjs.org/commander/-/commander-0.6.1.tgz
+671 silly fetchAndShaCheck shasum fa68a14f6a945d54dbbe50d8cdb3320e9e3b1a06
+672 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/commander/-/commander-0.6.1.tgz not in flight; adding
+673 verbose addTmpTarball already have metadata; skipping unpack for commander@0.6.1
+674 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+675 silly cache afterAdd commander@0.6.1
+676 verbose afterAdd /home/raphael/.npm/commander/0.6.1/package/package.json not in flight; writing
+677 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+678 verbose afterAdd /home/raphael/.npm/commander/0.6.1/package/package.json written
+679 http fetch 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.0.tgz
+680 silly fetchAndShaCheck shasum 1bbf5ab1ba827af23575143490426455f481fe1e
+681 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/mkdirp/-/mkdirp-0.3.0.tgz not in flight; adding
+682 verbose addTmpTarball already have metadata; skipping unpack for mkdirp@0.3.0
+683 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+684 silly cache afterAdd mkdirp@0.3.0
+685 verbose afterAdd /home/raphael/.npm/mkdirp/0.3.0/package/package.json not in flight; writing
+686 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+687 verbose afterAdd /home/raphael/.npm/mkdirp/0.3.0/package/package.json written
+688 silly fetchNamedPackageData minimist
+689 silly mapToRegistry name minimist
+690 silly mapToRegistry using default registry
+691 silly mapToRegistry registry https://registry.npmjs.org/
+692 silly mapToRegistry uri https://registry.npmjs.org/minimist
+693 verbose request uri https://registry.npmjs.org/minimist
+694 verbose request no auth needed
+695 info attempt registry request try #1 at 12:39:45 AM
+696 http request GET https://registry.npmjs.org/minimist
+697 http 200 https://registry.npmjs.org/minimist
+698 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+698 verbose headers   etag: '"EXJ5SM6CO0WKYV029Z4AKLKNM"',
+698 verbose headers   'content-type': 'application/json',
+698 verbose headers   'cache-control': 'max-age=300',
+698 verbose headers   'content-length': '27670',
+698 verbose headers   'accept-ranges': 'bytes',
+698 verbose headers   date: 'Wed, 24 Feb 2016 03:39:45 GMT',
+698 verbose headers   via: '1.1 varnish',
+698 verbose headers   age: '239',
+698 verbose headers   connection: 'keep-alive',
+698 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+698 verbose headers   'x-cache': 'HIT',
+698 verbose headers   'x-cache-hits': '23',
+698 verbose headers   'x-timer': 'S1456285185.892449,VS0,VE0',
+698 verbose headers   vary: 'Accept' }
+699 silly get cb [ 200,
+699 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+699 silly get     etag: '"EXJ5SM6CO0WKYV029Z4AKLKNM"',
+699 silly get     'content-type': 'application/json',
+699 silly get     'cache-control': 'max-age=300',
+699 silly get     'content-length': '27670',
+699 silly get     'accept-ranges': 'bytes',
+699 silly get     date: 'Wed, 24 Feb 2016 03:39:45 GMT',
+699 silly get     via: '1.1 varnish',
+699 silly get     age: '239',
+699 silly get     connection: 'keep-alive',
+699 silly get     'x-served-by': 'cache-lax1433-LAX',
+699 silly get     'x-cache': 'HIT',
+699 silly get     'x-cache-hits': '23',
+699 silly get     'x-timer': 'S1456285185.892449,VS0,VE0',
+699 silly get     vary: 'Accept' } ]
+700 verbose get saving minimist to /home/raphael/.npm/registry.npmjs.org/minimist/.cache.json
+701 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+702 silly resolveWithNewModule minimist@0.0.8 checking installable status
+703 silly cache add args [ 'minimist@0.0.8', null ]
+704 verbose cache add spec minimist@0.0.8
+705 silly cache add parsed spec Result {
+705 silly cache add   raw: 'minimist@0.0.8',
+705 silly cache add   scope: null,
+705 silly cache add   name: 'minimist',
+705 silly cache add   rawSpec: '0.0.8',
+705 silly cache add   spec: '0.0.8',
+705 silly cache add   type: 'version' }
+706 silly addNamed minimist@0.0.8
+707 verbose addNamed "0.0.8" is a plain semver version for minimist
+708 silly mapToRegistry name minimist
+709 silly mapToRegistry using default registry
+710 silly mapToRegistry registry https://registry.npmjs.org/
+711 silly mapToRegistry uri https://registry.npmjs.org/minimist
+712 verbose addNameVersion registry:https://registry.npmjs.org/minimist not in flight; fetching
+713 verbose get https://registry.npmjs.org/minimist not expired, no request
+714 silly mapToRegistry name minimist
+715 silly mapToRegistry using default registry
+716 silly mapToRegistry registry https://registry.npmjs.org/
+717 silly mapToRegistry uri https://registry.npmjs.org/minimist
+718 verbose addRemoteTarball https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz not in flight; adding
+719 verbose addRemoteTarball [ 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz',
+719 verbose addRemoteTarball   '857fcabfc3397d2625b8228262e86aa7a011b05d' ]
+720 info retry fetch attempt 1 at 12:39:46 AM
+721 info attempt registry request try #1 at 12:39:46 AM
+722 http fetch GET https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+723 http fetch 200 https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+724 silly fetchAndShaCheck shasum 857fcabfc3397d2625b8228262e86aa7a011b05d
+725 verbose addTmpTarball /tmp/npm-2695-de71dae6/registry.npmjs.org/minimist/-/minimist-0.0.8.tgz not in flight; adding
+726 verbose addTmpTarball already have metadata; skipping unpack for minimist@0.0.8
+727 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+728 silly cache afterAdd minimist@0.0.8
+729 verbose afterAdd /home/raphael/.npm/minimist/0.0.8/package/package.json not in flight; writing
+730 verbose correctMkdir /home/raphael/.npm correctMkdir not in flight; initializing
+731 verbose afterAdd /home/raphael/.npm/minimist/0.0.8/package/package.json written
+732 silly loadAllDepsIntoIdealTree Finishing
+733 silly idealTree:prePrune Raphael_Thiago
+733 silly idealTree:prePrune ├── accepts@1.2.13
+733 silly idealTree:prePrune ├── array-flatten@1.1.1
+733 silly idealTree:prePrune ├── assertion-error@1.0.1
+733 silly idealTree:prePrune ├── async@1.5.2
+733 silly idealTree:prePrune ├── base64-url@1.2.1
+733 silly idealTree:prePrune ├── bluebird@2.9.26
+733 silly idealTree:prePrune ├─┬ body-parser@1.15.0
+733 silly idealTree:prePrune │ ├── http-errors@1.4.0
+733 silly idealTree:prePrune │ └── qs@6.1.0
+733 silly idealTree:prePrune ├── bson@0.4.21
+733 silly idealTree:prePrune ├── bytes@2.2.0
+733 silly idealTree:prePrune ├── chai@3.5.0
+733 silly idealTree:prePrune ├── commander@2.3.0
+733 silly idealTree:prePrune ├── content-disposition@0.5.1
+733 silly idealTree:prePrune ├── content-type@1.0.1
+733 silly idealTree:prePrune ├─┬ cookie-parser@1.4.1
+733 silly idealTree:prePrune │ └── cookie@0.2.3
+733 silly idealTree:prePrune ├── cookie-signature@1.0.6
+733 silly idealTree:prePrune ├── cookie@0.1.5
+733 silly idealTree:prePrune ├── core-util-is@1.0.2
+733 silly idealTree:prePrune ├── crc@3.4.0
+733 silly idealTree:prePrune ├── debug@2.2.0
+733 silly idealTree:prePrune ├─┬ deep-eql@0.1.3
+733 silly idealTree:prePrune │ └── type-detect@0.1.1
+733 silly idealTree:prePrune ├── depd@1.1.0
+733 silly idealTree:prePrune ├── destroy@1.0.4
+733 silly idealTree:prePrune ├── diff@1.4.0
+733 silly idealTree:prePrune ├── ee-first@1.1.1
+733 silly idealTree:prePrune ├── ejs@2.4.1
+733 silly idealTree:prePrune ├── es6-promise@3.0.2
+733 silly idealTree:prePrune ├── escape-html@1.0.3
+733 silly idealTree:prePrune ├── escape-string-regexp@1.0.2
+733 silly idealTree:prePrune ├── etag@1.7.0
+733 silly idealTree:prePrune ├─┬ express-session@1.13.0
+733 silly idealTree:prePrune │ └── cookie@0.2.3
+733 silly idealTree:prePrune ├── express@4.13.4
+733 silly idealTree:prePrune ├── finalhandler@0.4.1
+733 silly idealTree:prePrune ├── forwarded@0.1.0
+733 silly idealTree:prePrune ├── fresh@0.3.0
+733 silly idealTree:prePrune ├── glob@3.2.3
+733 silly idealTree:prePrune ├── graceful-fs@2.0.3
+733 silly idealTree:prePrune ├── growl@1.8.1
+733 silly idealTree:prePrune ├── hooks-fixed@1.1.0
+733 silly idealTree:prePrune ├── http-errors@1.3.1
+733 silly idealTree:prePrune ├── iconv-lite@0.4.13
+733 silly idealTree:prePrune ├── inherits@2.0.1
+733 silly idealTree:prePrune ├── ipaddr.js@1.0.5
+733 silly idealTree:prePrune ├── isarray@0.0.1
+733 silly idealTree:prePrune ├─┬ jade@0.26.3
+733 silly idealTree:prePrune │ ├── commander@0.6.1
+733 silly idealTree:prePrune │ └── mkdirp@0.3.0
+733 silly idealTree:prePrune ├── kareem@1.0.1
+733 silly idealTree:prePrune ├── lru-cache@2.7.3
+733 silly idealTree:prePrune ├── media-typer@0.3.0
+733 silly idealTree:prePrune ├── merge-descriptors@1.0.1
+733 silly idealTree:prePrune ├── methods@1.1.2
+733 silly idealTree:prePrune ├── mime-db@1.22.0
+733 silly idealTree:prePrune ├── mime-types@2.1.10
+733 silly idealTree:prePrune ├── mime@1.3.4
+733 silly idealTree:prePrune ├── minimatch@0.2.14
+733 silly idealTree:prePrune ├── minimist@0.0.8
+733 silly idealTree:prePrune ├── mkdirp@0.5.1
+733 silly idealTree:prePrune ├── mocha@2.4.5
+733 silly idealTree:prePrune ├── mongodb-core@1.3.1
+733 silly idealTree:prePrune ├── mongodb@2.1.6
+733 silly idealTree:prePrune ├── mongoose@4.4.4
+733 silly idealTree:prePrune ├── mpath@0.2.1
+733 silly idealTree:prePrune ├── mpromise@0.5.5
+733 silly idealTree:prePrune ├─┬ mquery@1.6.3
+733 silly idealTree:prePrune │ └── sliced@0.0.5
+733 silly idealTree:prePrune ├── ms@0.7.1
+733 silly idealTree:prePrune ├── muri@1.1.0
+733 silly idealTree:prePrune ├── negotiator@0.5.3
+733 silly idealTree:prePrune ├── on-finished@2.3.0
+733 silly idealTree:prePrune ├── on-headers@1.0.1
+733 silly idealTree:prePrune ├── parseurl@1.3.1
+733 silly idealTree:prePrune ├── path-to-regexp@0.1.7
+733 silly idealTree:prePrune ├── proxy-addr@1.0.10
+733 silly idealTree:prePrune ├── qs@4.0.0
+733 silly idealTree:prePrune ├── range-parser@1.0.3
+733 silly idealTree:prePrune ├── raw-body@2.1.5
+733 silly idealTree:prePrune ├── readable-stream@1.0.31
+733 silly idealTree:prePrune ├── regexp-clone@0.0.1
+733 silly idealTree:prePrune ├── require_optional@1.0.0
+733 silly idealTree:prePrune ├── resolve-from@2.0.0
+733 silly idealTree:prePrune ├── semver@5.1.0
+733 silly idealTree:prePrune ├── send@0.13.1
+733 silly idealTree:prePrune ├── serve-static@1.10.2
+733 silly idealTree:prePrune ├── sigmund@1.0.1
+733 silly idealTree:prePrune ├── sliced@1.0.1
+733 silly idealTree:prePrune ├── statuses@1.2.1
+733 silly idealTree:prePrune ├── string_decoder@0.10.31
+733 silly idealTree:prePrune ├── supports-color@1.2.0
+733 silly idealTree:prePrune ├── type-detect@1.0.0
+733 silly idealTree:prePrune ├── type-is@1.6.11
+733 silly idealTree:prePrune ├── uid-safe@2.0.0
+733 silly idealTree:prePrune ├── unpipe@1.0.0
+733 silly idealTree:prePrune ├── utils-merge@1.0.0
+733 silly idealTree:prePrune └── vary@1.0.1
+734 silly loadIdealTree Finishing
+735 silly currentTree Raphael_Thiago
+735 silly currentTree ├── accepts@1.2.13
+735 silly currentTree ├── array-flatten@1.1.1
+735 silly currentTree ├── assertion-error@1.0.1
+735 silly currentTree ├── async@1.5.2
+735 silly currentTree ├── base64-url@1.2.1
+735 silly currentTree ├── bluebird@2.9.26
+735 silly currentTree ├─┬ body-parser@1.15.0
+735 silly currentTree │ ├── http-errors@1.4.0
+735 silly currentTree │ └── qs@6.1.0
+735 silly currentTree ├── bson@0.4.21
+735 silly currentTree ├── bytes@2.2.0
+735 silly currentTree ├── chai@3.5.0
+735 silly currentTree ├── content-disposition@0.5.1
+735 silly currentTree ├── content-type@1.0.1
+735 silly currentTree ├─┬ cookie-parser@1.4.1
+735 silly currentTree │ └── cookie@0.2.3
+735 silly currentTree ├── cookie-signature@1.0.6
+735 silly currentTree ├── cookie@0.1.5
+735 silly currentTree ├── core-util-is@1.0.2
+735 silly currentTree ├── crc@3.4.0
+735 silly currentTree ├── debug@2.2.0
+735 silly currentTree ├─┬ deep-eql@0.1.3
+735 silly currentTree │ └── type-detect@0.1.1
+735 silly currentTree ├── depd@1.1.0
+735 silly currentTree ├── destroy@1.0.4
+735 silly currentTree ├── ee-first@1.1.1
+735 silly currentTree ├── ejs@2.4.1
+735 silly currentTree ├── es6-promise@3.0.2
+735 silly currentTree ├── escape-html@1.0.3
+735 silly currentTree ├── etag@1.7.0
+735 silly currentTree ├─┬ express-session@1.13.0
+735 silly currentTree │ └── cookie@0.2.3
+735 silly currentTree ├── express@4.13.4
+735 silly currentTree ├── finalhandler@0.4.1
+735 silly currentTree ├── forwarded@0.1.0
+735 silly currentTree ├── fresh@0.3.0
+735 silly currentTree ├── hooks-fixed@1.1.0
+735 silly currentTree ├── http-errors@1.3.1
+735 silly currentTree ├── iconv-lite@0.4.13
+735 silly currentTree ├── inherits@2.0.1
+735 silly currentTree ├── ipaddr.js@1.0.5
+735 silly currentTree ├── isarray@0.0.1
+735 silly currentTree ├── kareem@1.0.1
+735 silly currentTree ├── media-typer@0.3.0
+735 silly currentTree ├── merge-descriptors@1.0.1
+735 silly currentTree ├── methods@1.1.2
+735 silly currentTree ├── mime-db@1.22.0
+735 silly currentTree ├── mime-types@2.1.10
+735 silly currentTree ├── mime@1.3.4
+735 silly currentTree ├── mongodb-core@1.3.1
+735 silly currentTree ├── mongodb@2.1.6
+735 silly currentTree ├── mongoose@4.4.4
+735 silly currentTree ├── mpath@0.2.1
+735 silly currentTree ├── mpromise@0.5.5
+735 silly currentTree ├─┬ mquery@1.6.3
+735 silly currentTree │ └── sliced@0.0.5
+735 silly currentTree ├── ms@0.7.1
+735 silly currentTree ├── muri@1.1.0
+735 silly currentTree ├── negotiator@0.5.3
+735 silly currentTree ├── on-finished@2.3.0
+735 silly currentTree ├── on-headers@1.0.1
+735 silly currentTree ├── parseurl@1.3.1
+735 silly currentTree ├── path-to-regexp@0.1.7
+735 silly currentTree ├── proxy-addr@1.0.10
+735 silly currentTree ├── qs@4.0.0
+735 silly currentTree ├── range-parser@1.0.3
+735 silly currentTree ├── raw-body@2.1.5
+735 silly currentTree ├── readable-stream@1.0.31
+735 silly currentTree ├── regexp-clone@0.0.1
+735 silly currentTree ├── require_optional@1.0.0
+735 silly currentTree ├── resolve-from@2.0.0
+735 silly currentTree ├── semver@5.1.0
+735 silly currentTree ├── send@0.13.1
+735 silly currentTree ├── serve-static@1.10.2
+735 silly currentTree ├── sliced@1.0.1
+735 silly currentTree ├── statuses@1.2.1
+735 silly currentTree ├── string_decoder@0.10.31
+735 silly currentTree ├── type-detect@1.0.0
+735 silly currentTree ├── type-is@1.6.11
+735 silly currentTree ├── uid-safe@2.0.0
+735 silly currentTree ├── unpipe@1.0.0
+735 silly currentTree ├── utils-merge@1.0.0
+735 silly currentTree └── vary@1.0.1
+736 silly idealTree Raphael_Thiago
+736 silly idealTree ├── accepts@1.2.13
+736 silly idealTree ├── array-flatten@1.1.1
+736 silly idealTree ├── assertion-error@1.0.1
+736 silly idealTree ├── async@1.5.2
+736 silly idealTree ├── base64-url@1.2.1
+736 silly idealTree ├── bluebird@2.9.26
+736 silly idealTree ├─┬ body-parser@1.15.0
+736 silly idealTree │ ├── http-errors@1.4.0
+736 silly idealTree │ └── qs@6.1.0
+736 silly idealTree ├── bson@0.4.21
+736 silly idealTree ├── bytes@2.2.0
+736 silly idealTree ├── chai@3.5.0
+736 silly idealTree ├── commander@2.3.0
+736 silly idealTree ├── content-disposition@0.5.1
+736 silly idealTree ├── content-type@1.0.1
+736 silly idealTree ├─┬ cookie-parser@1.4.1
+736 silly idealTree │ └── cookie@0.2.3
+736 silly idealTree ├── cookie-signature@1.0.6
+736 silly idealTree ├── cookie@0.1.5
+736 silly idealTree ├── core-util-is@1.0.2
+736 silly idealTree ├── crc@3.4.0
+736 silly idealTree ├── debug@2.2.0
+736 silly idealTree ├─┬ deep-eql@0.1.3
+736 silly idealTree │ └── type-detect@0.1.1
+736 silly idealTree ├── depd@1.1.0
+736 silly idealTree ├── destroy@1.0.4
+736 silly idealTree ├── diff@1.4.0
+736 silly idealTree ├── ee-first@1.1.1
+736 silly idealTree ├── ejs@2.4.1
+736 silly idealTree ├── es6-promise@3.0.2
+736 silly idealTree ├── escape-html@1.0.3
+736 silly idealTree ├── escape-string-regexp@1.0.2
+736 silly idealTree ├── etag@1.7.0
+736 silly idealTree ├─┬ express-session@1.13.0
+736 silly idealTree │ └── cookie@0.2.3
+736 silly idealTree ├── express@4.13.4
+736 silly idealTree ├── finalhandler@0.4.1
+736 silly idealTree ├── forwarded@0.1.0
+736 silly idealTree ├── fresh@0.3.0
+736 silly idealTree ├── glob@3.2.3
+736 silly idealTree ├── graceful-fs@2.0.3
+736 silly idealTree ├── growl@1.8.1
+736 silly idealTree ├── hooks-fixed@1.1.0
+736 silly idealTree ├── http-errors@1.3.1
+736 silly idealTree ├── iconv-lite@0.4.13
+736 silly idealTree ├── inherits@2.0.1
+736 silly idealTree ├── ipaddr.js@1.0.5
+736 silly idealTree ├── isarray@0.0.1
+736 silly idealTree ├─┬ jade@0.26.3
+736 silly idealTree │ ├── commander@0.6.1
+736 silly idealTree │ └── mkdirp@0.3.0
+736 silly idealTree ├── kareem@1.0.1
+736 silly idealTree ├── lru-cache@2.7.3
+736 silly idealTree ├── media-typer@0.3.0
+736 silly idealTree ├── merge-descriptors@1.0.1
+736 silly idealTree ├── methods@1.1.2
+736 silly idealTree ├── mime-db@1.22.0
+736 silly idealTree ├── mime-types@2.1.10
+736 silly idealTree ├── mime@1.3.4
+736 silly idealTree ├── minimatch@0.2.14
+736 silly idealTree ├── minimist@0.0.8
+736 silly idealTree ├── mkdirp@0.5.1
+736 silly idealTree ├── mocha@2.4.5
+736 silly idealTree ├── mongodb-core@1.3.1
+736 silly idealTree ├── mongodb@2.1.6
+736 silly idealTree ├── mongoose@4.4.4
+736 silly idealTree ├── mpath@0.2.1
+736 silly idealTree ├── mpromise@0.5.5
+736 silly idealTree ├─┬ mquery@1.6.3
+736 silly idealTree │ └── sliced@0.0.5
+736 silly idealTree ├── ms@0.7.1
+736 silly idealTree ├── muri@1.1.0
+736 silly idealTree ├── negotiator@0.5.3
+736 silly idealTree ├── on-finished@2.3.0
+736 silly idealTree ├── on-headers@1.0.1
+736 silly idealTree ├── parseurl@1.3.1
+736 silly idealTree ├── path-to-regexp@0.1.7
+736 silly idealTree ├── proxy-addr@1.0.10
+736 silly idealTree ├── qs@4.0.0
+736 silly idealTree ├── range-parser@1.0.3
+736 silly idealTree ├── raw-body@2.1.5
+736 silly idealTree ├── readable-stream@1.0.31
+736 silly idealTree ├── regexp-clone@0.0.1
+736 silly idealTree ├── require_optional@1.0.0
+736 silly idealTree ├── resolve-from@2.0.0
+736 silly idealTree ├── semver@5.1.0
+736 silly idealTree ├── send@0.13.1
+736 silly idealTree ├── serve-static@1.10.2
+736 silly idealTree ├── sigmund@1.0.1
+736 silly idealTree ├── sliced@1.0.1
+736 silly idealTree ├── statuses@1.2.1
+736 silly idealTree ├── string_decoder@0.10.31
+736 silly idealTree ├── supports-color@1.2.0
+736 silly idealTree ├── type-detect@1.0.0
+736 silly idealTree ├── type-is@1.6.11
+736 silly idealTree ├── uid-safe@2.0.0
+736 silly idealTree ├── unpipe@1.0.0
+736 silly idealTree ├── utils-merge@1.0.0
+736 silly idealTree └── vary@1.0.1
+737 silly generateActionsToTake Starting
+738 silly install generateActionsToTake
+739 silly generateActionsToTake Finishing
+740 silly diffTrees action count 16
+741 silly diffTrees add commander@2.3.0
+742 silly diffTrees add diff@1.4.0
+743 silly diffTrees add escape-string-regexp@1.0.2
+744 silly diffTrees add graceful-fs@2.0.3
+745 silly diffTrees add growl@1.8.1
+746 silly diffTrees add commander@0.6.1
+747 silly diffTrees add mkdirp@0.3.0
+748 silly diffTrees add jade@0.26.3
+749 silly diffTrees add lru-cache@2.7.3
+750 silly diffTrees add minimist@0.0.8
+751 silly diffTrees add mkdirp@0.5.1
+752 silly diffTrees add sigmund@1.0.1
+753 silly diffTrees add minimatch@0.2.14
+754 silly diffTrees add glob@3.2.3
+755 silly diffTrees add supports-color@1.2.0
+756 silly diffTrees add mocha@2.4.5
+757 silly decomposeActions action count 128
+758 silly decomposeActions fetch commander@2.3.0
+759 silly decomposeActions extract commander@2.3.0
+760 silly decomposeActions test commander@2.3.0
+761 silly decomposeActions preinstall commander@2.3.0
+762 silly decomposeActions build commander@2.3.0
+763 silly decomposeActions install commander@2.3.0
+764 silly decomposeActions postinstall commander@2.3.0
+765 silly decomposeActions finalize commander@2.3.0
+766 silly decomposeActions fetch diff@1.4.0
+767 silly decomposeActions extract diff@1.4.0
+768 silly decomposeActions test diff@1.4.0
+769 silly decomposeActions preinstall diff@1.4.0
+770 silly decomposeActions build diff@1.4.0
+771 silly decomposeActions install diff@1.4.0
+772 silly decomposeActions postinstall diff@1.4.0
+773 silly decomposeActions finalize diff@1.4.0
+774 silly decomposeActions fetch escape-string-regexp@1.0.2
+775 silly decomposeActions extract escape-string-regexp@1.0.2
+776 silly decomposeActions test escape-string-regexp@1.0.2
+777 silly decomposeActions preinstall escape-string-regexp@1.0.2
+778 silly decomposeActions build escape-string-regexp@1.0.2
+779 silly decomposeActions install escape-string-regexp@1.0.2
+780 silly decomposeActions postinstall escape-string-regexp@1.0.2
+781 silly decomposeActions finalize escape-string-regexp@1.0.2
+782 silly decomposeActions fetch graceful-fs@2.0.3
+783 silly decomposeActions extract graceful-fs@2.0.3
+784 silly decomposeActions test graceful-fs@2.0.3
+785 silly decomposeActions preinstall graceful-fs@2.0.3
+786 silly decomposeActions build graceful-fs@2.0.3
+787 silly decomposeActions install graceful-fs@2.0.3
+788 silly decomposeActions postinstall graceful-fs@2.0.3
+789 silly decomposeActions finalize graceful-fs@2.0.3
+790 silly decomposeActions fetch growl@1.8.1
+791 silly decomposeActions extract growl@1.8.1
+792 silly decomposeActions test growl@1.8.1
+793 silly decomposeActions preinstall growl@1.8.1
+794 silly decomposeActions build growl@1.8.1
+795 silly decomposeActions install growl@1.8.1
+796 silly decomposeActions postinstall growl@1.8.1
+797 silly decomposeActions finalize growl@1.8.1
+798 silly decomposeActions fetch commander@0.6.1
+799 silly decomposeActions extract commander@0.6.1
+800 silly decomposeActions test commander@0.6.1
+801 silly decomposeActions preinstall commander@0.6.1
+802 silly decomposeActions build commander@0.6.1
+803 silly decomposeActions install commander@0.6.1
+804 silly decomposeActions postinstall commander@0.6.1
+805 silly decomposeActions finalize commander@0.6.1
+806 silly decomposeActions fetch mkdirp@0.3.0
+807 silly decomposeActions extract mkdirp@0.3.0
+808 silly decomposeActions test mkdirp@0.3.0
+809 silly decomposeActions preinstall mkdirp@0.3.0
+810 silly decomposeActions build mkdirp@0.3.0
+811 silly decomposeActions install mkdirp@0.3.0
+812 silly decomposeActions postinstall mkdirp@0.3.0
+813 silly decomposeActions finalize mkdirp@0.3.0
+814 silly decomposeActions fetch jade@0.26.3
+815 silly decomposeActions extract jade@0.26.3
+816 silly decomposeActions test jade@0.26.3
+817 silly decomposeActions preinstall jade@0.26.3
+818 silly decomposeActions build jade@0.26.3
+819 silly decomposeActions install jade@0.26.3
+820 silly decomposeActions postinstall jade@0.26.3
+821 silly decomposeActions finalize jade@0.26.3
+822 silly decomposeActions fetch lru-cache@2.7.3
+823 silly decomposeActions extract lru-cache@2.7.3
+824 silly decomposeActions test lru-cache@2.7.3
+825 silly decomposeActions preinstall lru-cache@2.7.3
+826 silly decomposeActions build lru-cache@2.7.3
+827 silly decomposeActions install lru-cache@2.7.3
+828 silly decomposeActions postinstall lru-cache@2.7.3
+829 silly decomposeActions finalize lru-cache@2.7.3
+830 silly decomposeActions fetch minimist@0.0.8
+831 silly decomposeActions extract minimist@0.0.8
+832 silly decomposeActions test minimist@0.0.8
+833 silly decomposeActions preinstall minimist@0.0.8
+834 silly decomposeActions build minimist@0.0.8
+835 silly decomposeActions install minimist@0.0.8
+836 silly decomposeActions postinstall minimist@0.0.8
+837 silly decomposeActions finalize minimist@0.0.8
+838 silly decomposeActions fetch mkdirp@0.5.1
+839 silly decomposeActions extract mkdirp@0.5.1
+840 silly decomposeActions test mkdirp@0.5.1
+841 silly decomposeActions preinstall mkdirp@0.5.1
+842 silly decomposeActions build mkdirp@0.5.1
+843 silly decomposeActions install mkdirp@0.5.1
+844 silly decomposeActions postinstall mkdirp@0.5.1
+845 silly decomposeActions finalize mkdirp@0.5.1
+846 silly decomposeActions fetch sigmund@1.0.1
+847 silly decomposeActions extract sigmund@1.0.1
+848 silly decomposeActions test sigmund@1.0.1
+849 silly decomposeActions preinstall sigmund@1.0.1
+850 silly decomposeActions build sigmund@1.0.1
+851 silly decomposeActions install sigmund@1.0.1
+852 silly decomposeActions postinstall sigmund@1.0.1
+853 silly decomposeActions finalize sigmund@1.0.1
+854 silly decomposeActions fetch minimatch@0.2.14
+855 silly decomposeActions extract minimatch@0.2.14
+856 silly decomposeActions test minimatch@0.2.14
+857 silly decomposeActions preinstall minimatch@0.2.14
+858 silly decomposeActions build minimatch@0.2.14
+859 silly decomposeActions install minimatch@0.2.14
+860 silly decomposeActions postinstall minimatch@0.2.14
+861 silly decomposeActions finalize minimatch@0.2.14
+862 silly decomposeActions fetch glob@3.2.3
+863 silly decomposeActions extract glob@3.2.3
+864 silly decomposeActions test glob@3.2.3
+865 silly decomposeActions preinstall glob@3.2.3
+866 silly decomposeActions build glob@3.2.3
+867 silly decomposeActions install glob@3.2.3
+868 silly decomposeActions postinstall glob@3.2.3
+869 silly decomposeActions finalize glob@3.2.3
+870 silly decomposeActions fetch supports-color@1.2.0
+871 silly decomposeActions extract supports-color@1.2.0
+872 silly decomposeActions test supports-color@1.2.0
+873 silly decomposeActions preinstall supports-color@1.2.0
+874 silly decomposeActions build supports-color@1.2.0
+875 silly decomposeActions install supports-color@1.2.0
+876 silly decomposeActions postinstall supports-color@1.2.0
+877 silly decomposeActions finalize supports-color@1.2.0
+878 silly decomposeActions fetch mocha@2.4.5
+879 silly decomposeActions extract mocha@2.4.5
+880 silly decomposeActions test mocha@2.4.5
+881 silly decomposeActions preinstall mocha@2.4.5
+882 silly decomposeActions build mocha@2.4.5
+883 silly decomposeActions install mocha@2.4.5
+884 silly decomposeActions postinstall mocha@2.4.5
+885 silly decomposeActions finalize mocha@2.4.5
+886 silly executeActions Starting
+887 silly install executeActions
+888 silly doSerial global-install 0
+889 silly doParallel fetch 16
+890 verbose correctMkdir /home/raphael/.npm/_locks correctMkdir not in flight; initializing
+891 verbose lock using /home/raphael/.npm/_locks/staging-fa0fce897a1b21e9.lock for /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging
+892 silly doParallel extract 16
+893 silly extract commander@2.3.0
+894 silly extract diff@1.4.0
+895 silly extract escape-string-regexp@1.0.2
+896 silly extract graceful-fs@2.0.3
+897 silly extract growl@1.8.1
+898 silly extract commander@0.6.1
+899 silly extract mkdirp@0.3.0
+900 silly extract jade@0.26.3
+901 silly extract lru-cache@2.7.3
+902 silly extract minimist@0.0.8
+903 silly extract mkdirp@0.5.1
+904 silly extract sigmund@1.0.1
+905 silly extract minimatch@0.2.14
+906 silly extract glob@3.2.3
+907 silly extract supports-color@1.2.0
+908 silly extract mocha@2.4.5
+909 verbose unbuild node_modules/.staging/diff-147fbd8b
+910 verbose unbuild node_modules/.staging/escape-string-regexp-370b47b3
+911 verbose unbuild node_modules/.staging/graceful-fs-4d0b7757
+912 verbose unbuild node_modules/.staging/growl-a76153ab
+913 verbose unbuild node_modules/.staging/commander-335daa1a
+914 verbose unbuild node_modules/.staging/mkdirp-1037c9fb
+915 verbose unbuild node_modules/.staging/lru-cache-da51174c
+916 verbose unbuild node_modules/.staging/minimist-dd4e317a
+917 verbose unbuild node_modules/.staging/commander-f91ae784
+918 verbose unbuild node_modules/.staging/sigmund-cae23232
+919 verbose unbuild node_modules/.staging/minimatch-0b7dacc8
+920 verbose unbuild node_modules/.staging/glob-f8f4ee97
+921 verbose unbuild node_modules/.staging/jade-ad81e5fc
+922 verbose unbuild node_modules/.staging/mkdirp-6df81933
+923 verbose unbuild node_modules/.staging/supports-color-d236be62
+924 verbose unbuild node_modules/.staging/mocha-25e5254d
+925 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/diff-147fbd8b is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+926 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/diff-147fbd8b
+927 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/escape-string-regexp-370b47b3 is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+928 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/escape-string-regexp-370b47b3
+929 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/graceful-fs-4d0b7757 is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+930 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/graceful-fs-4d0b7757
+931 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/growl-a76153ab is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+932 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/growl-a76153ab
+933 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-335daa1a is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+934 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-335daa1a
+935 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-1037c9fb is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+936 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-1037c9fb
+937 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/lru-cache-da51174c is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+938 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/lru-cache-da51174c
+939 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimist-dd4e317a is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+940 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimist-dd4e317a
+941 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-f91ae784 is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+942 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-f91ae784
+943 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/sigmund-cae23232 is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+944 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/sigmund-cae23232
+945 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimatch-0b7dacc8 is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+946 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimatch-0b7dacc8
+947 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/glob-f8f4ee97 is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+948 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/glob-f8f4ee97
+949 verbose tar unpack /home/raphael/.npm/diff/1.4.0/package.tgz
+950 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/diff-147fbd8b
+951 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/diff-147fbd8b is being purged
+952 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/diff-147fbd8b
+953 verbose tar unpack /home/raphael/.npm/escape-string-regexp/1.0.2/package.tgz
+954 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/escape-string-regexp-370b47b3
+955 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/escape-string-regexp-370b47b3 is being purged
+956 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/escape-string-regexp-370b47b3
+957 verbose tar unpack /home/raphael/.npm/graceful-fs/2.0.3/package.tgz
+958 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/graceful-fs-4d0b7757
+959 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/graceful-fs-4d0b7757 is being purged
+960 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/graceful-fs-4d0b7757
+961 verbose tar unpack /home/raphael/.npm/growl/1.8.1/package.tgz
+962 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/growl-a76153ab
+963 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/growl-a76153ab is being purged
+964 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/growl-a76153ab
+965 verbose tar unpack /home/raphael/.npm/commander/0.6.1/package.tgz
+966 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-335daa1a
+967 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-335daa1a is being purged
+968 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-335daa1a
+969 verbose tar unpack /home/raphael/.npm/mkdirp/0.3.0/package.tgz
+970 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-1037c9fb
+971 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-1037c9fb is being purged
+972 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-1037c9fb
+973 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/jade-ad81e5fc is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+974 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/jade-ad81e5fc
+975 verbose tar unpack /home/raphael/.npm/lru-cache/2.7.3/package.tgz
+976 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/lru-cache-da51174c
+977 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/lru-cache-da51174c is being purged
+978 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/lru-cache-da51174c
+979 verbose tar unpack /home/raphael/.npm/minimist/0.0.8/package.tgz
+980 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimist-dd4e317a
+981 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimist-dd4e317a is being purged
+982 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimist-dd4e317a
+983 verbose tar unpack /home/raphael/.npm/commander/2.3.0/package.tgz
+984 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-f91ae784
+985 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-f91ae784 is being purged
+986 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-f91ae784
+987 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-6df81933 is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+988 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-6df81933
+989 verbose tar unpack /home/raphael/.npm/sigmund/1.0.1/package.tgz
+990 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/sigmund-cae23232
+991 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/sigmund-cae23232 is being purged
+992 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/sigmund-cae23232
+993 verbose tar unpack /home/raphael/.npm/minimatch/0.2.14/package.tgz
+994 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimatch-0b7dacc8
+995 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimatch-0b7dacc8 is being purged
+996 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimatch-0b7dacc8
+997 verbose tar unpack /home/raphael/.npm/glob/3.2.3/package.tgz
+998 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/glob-f8f4ee97
+999 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/glob-f8f4ee97 is being purged
+1000 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/glob-f8f4ee97
+1001 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/supports-color-d236be62 is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+1002 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/supports-color-d236be62
+1003 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mocha-25e5254d is being purged from base /home/raphael/Documents/tgi/Raphael_Thiago
+1004 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mocha-25e5254d
+1005 silly gunzTarPerm modes [ '775', '664' ]
+1006 silly gunzTarPerm modes [ '775', '664' ]
+1007 silly gunzTarPerm modes [ '775', '664' ]
+1008 silly gunzTarPerm modes [ '775', '664' ]
+1009 silly gunzTarPerm modes [ '775', '664' ]
+1010 silly gunzTarPerm modes [ '775', '664' ]
+1011 verbose tar unpack /home/raphael/.npm/jade/0.26.3/package.tgz
+1012 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/jade-ad81e5fc
+1013 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/jade-ad81e5fc is being purged
+1014 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/jade-ad81e5fc
+1015 silly gunzTarPerm modes [ '775', '664' ]
+1016 silly gunzTarPerm modes [ '775', '664' ]
+1017 silly gunzTarPerm modes [ '775', '664' ]
+1018 verbose tar unpack /home/raphael/.npm/mkdirp/0.5.1/package.tgz
+1019 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-6df81933
+1020 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-6df81933 is being purged
+1021 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-6df81933
+1022 silly gunzTarPerm modes [ '775', '664' ]
+1023 silly gunzTarPerm modes [ '775', '664' ]
+1024 silly gunzTarPerm modes [ '775', '664' ]
+1025 verbose tar unpack /home/raphael/.npm/supports-color/1.2.0/package.tgz
+1026 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/supports-color-d236be62
+1027 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/supports-color-d236be62 is being purged
+1028 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/supports-color-d236be62
+1029 verbose tar unpack /home/raphael/.npm/mocha/2.4.5/package.tgz
+1030 verbose tar unpacking to /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mocha-25e5254d
+1031 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mocha-25e5254d is being purged
+1032 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mocha-25e5254d
+1033 silly gunzTarPerm modes [ '775', '664' ]
+1034 silly gunzTarPerm modes [ '775', '664' ]
+1035 silly gunzTarPerm modes [ '775', '664' ]
+1036 silly gunzTarPerm modes [ '775', '664' ]
+1037 silly gunzTarPerm extractEntry package.json
+1038 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1039 silly gunzTarPerm extractEntry package.json
+1040 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1041 silly gunzTarPerm extractEntry package.json
+1042 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1043 silly gunzTarPerm extractEntry package.json
+1044 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1045 silly gunzTarPerm extractEntry .npmignore
+1046 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+1047 silly gunzTarPerm extractEntry index.js
+1048 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1049 silly gunzTarPerm extractEntry package.json
+1050 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1051 silly gunzTarPerm extractEntry package.json
+1052 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1053 silly gunzTarPerm extractEntry package.json
+1054 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1055 silly gunzTarPerm extractEntry package.json
+1056 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1057 silly gunzTarPerm extractEntry package.json
+1058 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1059 silly gunzTarPerm extractEntry package.json
+1060 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1061 silly gunzTarPerm extractEntry package.json
+1062 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1063 silly gunzTarPerm extractEntry package.json
+1064 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1065 silly gunzTarPerm extractEntry package.json
+1066 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1067 silly gunzTarPerm extractEntry package.json
+1068 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1069 silly gunzTarPerm extractEntry README.md
+1070 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+1071 silly gunzTarPerm extractEntry diff.js
+1072 silly gunzTarPerm modified mode [ 'diff.js', 420, 436 ]
+1073 silly gunzTarPerm extractEntry index.js
+1074 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1075 silly gunzTarPerm extractEntry readme.md
+1076 silly gunzTarPerm modified mode [ 'readme.md', 420, 436 ]
+1077 silly gunzTarPerm extractEntry .npmignore
+1078 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+1079 silly gunzTarPerm extractEntry README.md
+1080 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+1081 silly gunzTarPerm extractEntry test.js
+1082 silly gunzTarPerm modified mode [ 'test.js', 420, 436 ]
+1083 silly gunzTarPerm extractEntry History.md
+1084 silly gunzTarPerm modified mode [ 'History.md', 420, 436 ]
+1085 silly gunzTarPerm extractEntry .travis.yml
+1086 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+1087 silly gunzTarPerm extractEntry History.md
+1088 silly gunzTarPerm modified mode [ 'History.md', 420, 436 ]
+1089 silly gunzTarPerm extractEntry package.json
+1090 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1091 silly gunzTarPerm extractEntry .gitignore.rej
+1092 silly gunzTarPerm modified mode [ '.gitignore.rej', 420, 436 ]
+1093 silly gunzTarPerm extractEntry .npmignore
+1094 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+1095 silly gunzTarPerm extractEntry README.md
+1096 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+1097 silly gunzTarPerm extractEntry index.js
+1098 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1099 silly gunzTarPerm extractEntry Readme.md
+1100 silly gunzTarPerm modified mode [ 'Readme.md', 420, 436 ]
+1101 silly gunzTarPerm extractEntry LICENSE
+1102 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+1103 silly gunzTarPerm extractEntry index.js
+1104 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1105 silly gunzTarPerm extractEntry README.md
+1106 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+1107 silly gunzTarPerm extractEntry LICENSE
+1108 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+1109 silly gunzTarPerm extractEntry .npmignore
+1110 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+1111 silly gunzTarPerm extractEntry README.md
+1112 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+1113 silly gunzTarPerm extractEntry .npmignore
+1114 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+1115 silly gunzTarPerm extractEntry README.md
+1116 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+1117 silly gunzTarPerm extractEntry .npmignore
+1118 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+1119 silly gunzTarPerm extractEntry LICENSE
+1120 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+1121 silly gunzTarPerm extractEntry LICENSE
+1122 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+1123 silly gunzTarPerm extractEntry index.js
+1124 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1125 silly gunzTarPerm extractEntry README.md
+1126 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+1127 silly gunzTarPerm extractEntry LICENSE
+1128 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+1129 silly gunzTarPerm extractEntry index.js
+1130 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1131 silly gunzTarPerm extractEntry cli.js
+1132 silly gunzTarPerm modified mode [ 'cli.js', 493, 509 ]
+1133 silly gunzTarPerm extractEntry Readme.md
+1134 silly gunzTarPerm modified mode [ 'Readme.md', 420, 436 ]
+1135 silly gunzTarPerm extractEntry lib/growl.js
+1136 silly gunzTarPerm modified mode [ 'lib/growl.js', 420, 436 ]
+1137 silly gunzTarPerm extractEntry index.js
+1138 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1139 silly gunzTarPerm extractEntry lib/
+1140 silly gunzTarPerm modified mode [ 'lib/', 493, 509 ]
+1141 silly gunzTarPerm extractEntry LICENSE
+1142 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+1143 silly gunzTarPerm extractEntry .travis.yml
+1144 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+1145 silly gunzTarPerm extractEntry LICENSE
+1146 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+1147 silly gunzTarPerm extractEntry graceful-fs.js
+1148 silly gunzTarPerm modified mode [ 'graceful-fs.js', 420, 436 ]
+1149 silly gunzTarPerm extractEntry .gitignore.orig
+1150 silly gunzTarPerm modified mode [ '.gitignore.orig', 420, 436 ]
+1151 silly gunzTarPerm extractEntry README.markdown
+1152 silly gunzTarPerm modified mode [ 'README.markdown', 420, 436 ]
+1153 silly gunzTarPerm extractEntry .travis.yml
+1154 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+1155 silly gunzTarPerm extractEntry example/parse.js
+1156 silly gunzTarPerm modified mode [ 'example/parse.js', 420, 436 ]
+1157 silly gunzTarPerm extractEntry bench.js
+1158 silly gunzTarPerm modified mode [ 'bench.js', 420, 436 ]
+1159 silly gunzTarPerm extractEntry sigmund.js
+1160 silly gunzTarPerm modified mode [ 'sigmund.js', 420, 436 ]
+1161 silly gunzTarPerm extractEntry LICENSE
+1162 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+1163 silly gunzTarPerm extractEntry glob.js
+1164 silly gunzTarPerm modified mode [ 'glob.js', 420, 436 ]
+1165 silly gunzTarPerm extractEntry index.js
+1166 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1167 silly gunzTarPerm extractEntry jade.js
+1168 silly gunzTarPerm modified mode [ 'jade.js', 420, 436 ]
+1169 silly gunzTarPerm extractEntry .travis.yml
+1170 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+1171 silly gunzTarPerm extractEntry bin/cmd.js
+1172 silly gunzTarPerm modified mode [ 'bin/cmd.js', 493, 509 ]
+1173 silly gunzTarPerm extractEntry LICENSE
+1174 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+1175 silly gunzTarPerm extractEntry minimatch.js
+1176 silly gunzTarPerm modified mode [ 'minimatch.js', 420, 436 ]
+1177 silly gunzTarPerm extractEntry index.js
+1178 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1179 silly gunzTarPerm extractEntry readme.md
+1180 silly gunzTarPerm modified mode [ 'readme.md', 420, 436 ]
+1181 silly gunzTarPerm extractEntry lib/commander.js
+1182 silly gunzTarPerm modified mode [ 'lib/commander.js', 420, 436 ]
+1183 silly gunzTarPerm extractEntry Makefile
+1184 silly gunzTarPerm modified mode [ 'Makefile', 420, 436 ]
+1185 silly gunzTarPerm extractEntry package.json
+1186 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1187 silly gunzTarPerm extractEntry Readme.md
+1188 silly gunzTarPerm modified mode [ 'Readme.md', 420, 436 ]
+1189 silly gunzTarPerm extractEntry CONTRIBUTORS
+1190 silly gunzTarPerm modified mode [ 'CONTRIBUTORS', 420, 436 ]
+1191 silly gunzTarPerm extractEntry lib/lru-cache.js
+1192 silly gunzTarPerm modified mode [ 'lib/lru-cache.js', 420, 436 ]
+1193 silly gunzTarPerm extractEntry polyfills.js
+1194 silly gunzTarPerm modified mode [ 'polyfills.js', 420, 436 ]
+1195 silly gunzTarPerm extractEntry test/open.js
+1196 silly gunzTarPerm modified mode [ 'test/open.js', 420, 436 ]
+1197 silly gunzTarPerm extractEntry test/readdir-sort.js
+1198 silly gunzTarPerm modified mode [ 'test/readdir-sort.js', 420, 436 ]
+1199 silly gunzTarPerm extractEntry .travis.yml
+1200 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+1201 silly gunzTarPerm extractEntry LICENSE
+1202 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+1203 silly gunzTarPerm extractEntry .gitignore
+1204 silly gunzTarPerm modified mode [ '.gitignore', 420, 436 ]
+1205 silly gunzTarPerm extractEntry jade.min.js
+1206 silly gunzTarPerm modified mode [ 'jade.min.js', 420, 436 ]
+1207 silly gunzTarPerm extractEntry readme.markdown
+1208 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 436 ]
+1209 silly gunzTarPerm extractEntry test/dash.js
+1210 silly gunzTarPerm modified mode [ 'test/dash.js', 420, 436 ]
+1211 silly gunzTarPerm extractEntry test/basic.js
+1212 silly gunzTarPerm modified mode [ 'test/basic.js', 420, 436 ]
+1213 silly gunzTarPerm extractEntry test/basic.js
+1214 silly gunzTarPerm modified mode [ 'test/basic.js', 420, 436 ]
+1215 silly gunzTarPerm extractEntry bin/usage.txt
+1216 silly gunzTarPerm modified mode [ 'bin/usage.txt', 420, 436 ]
+1217 silly gunzTarPerm extractEntry examples/pow.js
+1218 silly gunzTarPerm modified mode [ 'examples/pow.js', 420, 436 ]
+1219 silly gunzTarPerm extractEntry mocha.js
+1220 silly gunzTarPerm modified mode [ 'mocha.js', 420, 436 ]
+1221 silly gunzTarPerm extractEntry CHANGELOG.md
+1222 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 436 ]
+1223 silly gunzTarPerm extractEntry test/basic.js
+1224 silly gunzTarPerm modified mode [ 'test/basic.js', 420, 436 ]
+1225 silly gunzTarPerm extractEntry examples/pow.js.rej
+1226 silly gunzTarPerm modified mode [ 'examples/pow.js.rej', 420, 436 ]
+1227 silly gunzTarPerm extractEntry examples/pow.js
+1228 silly gunzTarPerm modified mode [ 'examples/pow.js', 420, 436 ]
+1229 silly gunzTarPerm extractEntry examples/g.js
+1230 silly gunzTarPerm modified mode [ 'examples/g.js', 420, 436 ]
+1231 silly gunzTarPerm extractEntry examples/usr-local.js
+1232 silly gunzTarPerm modified mode [ 'examples/usr-local.js', 420, 436 ]
+1233 silly gunzTarPerm extractEntry runtime.js
+1234 silly gunzTarPerm modified mode [ 'runtime.js', 420, 436 ]
+1235 silly gunzTarPerm extractEntry runtime.min.js
+1236 silly gunzTarPerm modified mode [ 'runtime.min.js', 420, 436 ]
+1237 silly gunzTarPerm extractEntry test/default_bool.js
+1238 silly gunzTarPerm modified mode [ 'test/default_bool.js', 420, 436 ]
+1239 silly gunzTarPerm extractEntry test/dotted.js
+1240 silly gunzTarPerm modified mode [ 'test/dotted.js', 420, 436 ]
+1241 silly gunzTarPerm extractEntry test/long.js
+1242 silly gunzTarPerm modified mode [ 'test/long.js', 420, 436 ]
+1243 silly gunzTarPerm extractEntry test/parse.js
+1244 silly gunzTarPerm modified mode [ 'test/parse.js', 420, 436 ]
+1245 silly gunzTarPerm extractEntry test/parse_modified.js
+1246 silly gunzTarPerm modified mode [ 'test/parse_modified.js', 420, 436 ]
+1247 silly gunzTarPerm extractEntry test/short.js
+1248 silly gunzTarPerm modified mode [ 'test/short.js', 420, 436 ]
+1249 silly gunzTarPerm extractEntry test/whitespace.js
+1250 silly gunzTarPerm modified mode [ 'test/whitespace.js', 420, 436 ]
+1251 silly gunzTarPerm extractEntry test/brace-expand.js
+1252 silly gunzTarPerm modified mode [ 'test/brace-expand.js', 420, 436 ]
+1253 silly gunzTarPerm extractEntry test/caching.js
+1254 silly gunzTarPerm modified mode [ 'test/caching.js', 420, 436 ]
+1255 silly gunzTarPerm extractEntry readme.markdown
+1256 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 436 ]
+1257 silly gunzTarPerm extractEntry test/chmod.js
+1258 silly gunzTarPerm modified mode [ 'test/chmod.js', 420, 436 ]
+1259 silly gunzTarPerm extractEntry bin/options.js
+1260 silly gunzTarPerm modified mode [ 'bin/options.js', 420, 436 ]
+1261 silly gunzTarPerm extractEntry bin/.eslintrc
+1262 silly gunzTarPerm modified mode [ 'bin/.eslintrc', 420, 436 ]
+1263 silly gunzTarPerm extractEntry examples/pow.js.orig
+1264 silly gunzTarPerm modified mode [ 'examples/pow.js.orig', 420, 436 ]
+1265 silly gunzTarPerm extractEntry test/perm.js
+1266 silly gunzTarPerm modified mode [ 'test/perm.js', 420, 436 ]
+1267 silly gunzTarPerm extractEntry test/foreach.js
+1268 silly gunzTarPerm modified mode [ 'test/foreach.js', 420, 436 ]
+1269 silly gunzTarPerm extractEntry test/memory-leak.js
+1270 silly gunzTarPerm modified mode [ 'test/memory-leak.js', 420, 436 ]
+1271 silly gunzTarPerm extractEntry testing/index.js
+1272 silly gunzTarPerm modified mode [ 'testing/index.js', 420, 436 ]
+1273 silly gunzTarPerm extractEntry testing/user.js
+1274 silly gunzTarPerm modified mode [ 'testing/user.js', 420, 436 ]
+1275 silly gunzTarPerm extractEntry testing/head.jade
+1276 silly gunzTarPerm modified mode [ 'testing/head.jade', 420, 436 ]
+1277 silly gunzTarPerm extractEntry test/opts_fs_sync.js
+1278 silly gunzTarPerm modified mode [ 'test/opts_fs_sync.js', 420, 436 ]
+1279 silly gunzTarPerm extractEntry test/00-setup.js
+1280 silly gunzTarPerm modified mode [ 'test/00-setup.js', 420, 436 ]
+1281 silly gunzTarPerm extractEntry test/stat.js
+1282 silly gunzTarPerm modified mode [ 'test/stat.js', 420, 436 ]
+1283 silly gunzTarPerm extractEntry test/cwd-test.js
+1284 silly gunzTarPerm modified mode [ 'test/cwd-test.js', 420, 436 ]
+1285 silly gunzTarPerm extractEntry test/defaults.js
+1286 silly gunzTarPerm modified mode [ 'test/defaults.js', 420, 436 ]
+1287 silly gunzTarPerm extractEntry test/extglob-ending-with-state-char.js
+1288 silly gunzTarPerm modified mode [ 'test/extglob-ending-with-state-char.js', 420, 436 ]
+1289 silly gunzTarPerm extractEntry bin/_mocha
+1290 silly gunzTarPerm modified mode [ 'bin/_mocha', 493, 509 ]
+1291 silly gunzTarPerm extractEntry bin/mocha
+1292 silly gunzTarPerm modified mode [ 'bin/mocha', 493, 509 ]
+1293 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/escape-string-regexp-370b47b3/node_modules is being purged
+1294 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/escape-string-regexp-370b47b3/node_modules
+1295 silly gunzTarPerm extractEntry testing/index.jade
+1296 silly gunzTarPerm modified mode [ 'testing/index.jade', 420, 436 ]
+1297 silly gunzTarPerm extractEntry test/globstar-match.js
+1298 silly gunzTarPerm modified mode [ 'test/globstar-match.js', 420, 436 ]
+1299 silly gunzTarPerm extractEntry images/error.png
+1300 silly gunzTarPerm modified mode [ 'images/error.png', 420, 436 ]
+1301 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-f91ae784/node_modules is being purged
+1302 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-f91ae784/node_modules
+1303 silly gunzTarPerm extractEntry testing/layout.jade
+1304 silly gunzTarPerm modified mode [ 'testing/layout.jade', 420, 436 ]
+1305 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/diff-147fbd8b/node_modules is being purged
+1306 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/diff-147fbd8b/node_modules
+1307 silly gunzTarPerm extractEntry images/ok.png
+1308 silly gunzTarPerm modified mode [ 'images/ok.png', 420, 436 ]
+1309 silly gunzTarPerm extractEntry testing/user.jade
+1310 silly gunzTarPerm modified mode [ 'testing/user.jade', 420, 436 ]
+1311 silly gunzTarPerm extractEntry test/serialize.js
+1312 silly gunzTarPerm modified mode [ 'test/serialize.js', 420, 436 ]
+1313 silly gunzTarPerm extractEntry lib/utils.js
+1314 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 436 ]
+1315 silly gunzTarPerm extractEntry test/umask_sync.js
+1316 silly gunzTarPerm modified mode [ 'test/umask_sync.js', 420, 436 ]
+1317 silly gunzTarPerm extractEntry test/perm_sync.js
+1318 silly gunzTarPerm modified mode [ 'test/perm_sync.js', 420, 436 ]
+1319 silly gunzTarPerm extractEntry test/race.js
+1320 silly gunzTarPerm modified mode [ 'test/race.js', 420, 436 ]
+1321 silly gunzTarPerm extractEntry test/rel.js
+1322 silly gunzTarPerm modified mode [ 'test/rel.js', 420, 436 ]
+1323 silly gunzTarPerm extractEntry test/mkdirp.js
+1324 silly gunzTarPerm modified mode [ 'test/mkdirp.js', 420, 436 ]
+1325 silly gunzTarPerm extractEntry test/clobber.js
+1326 silly gunzTarPerm modified mode [ 'test/clobber.js', 420, 436 ]
+1327 silly gunzTarPerm extractEntry test/umask.js
+1328 silly gunzTarPerm modified mode [ 'test/umask.js', 420, 436 ]
+1329 silly gunzTarPerm extractEntry test/sync.js
+1330 silly gunzTarPerm modified mode [ 'test/sync.js', 420, 436 ]
+1331 silly gunzTarPerm extractEntry test/chmod.js
+1332 silly gunzTarPerm modified mode [ 'test/chmod.js', 420, 436 ]
+1333 silly gunzTarPerm extractEntry bin/jade
+1334 silly gunzTarPerm modified mode [ 'bin/jade', 493, 509 ]
+1335 silly gunzTarPerm extractEntry lib/hook.js
+1336 silly gunzTarPerm modified mode [ 'lib/hook.js', 420, 436 ]
+1337 silly gunzTarPerm extractEntry test/perm.js
+1338 silly gunzTarPerm modified mode [ 'test/perm.js', 420, 436 ]
+1339 silly gunzTarPerm extractEntry test/perm_sync.js
+1340 silly gunzTarPerm modified mode [ 'test/perm_sync.js', 420, 436 ]
+1341 silly gunzTarPerm extractEntry lib/mocha.js
+1342 silly gunzTarPerm modified mode [ 'lib/mocha.js', 420, 436 ]
+1343 silly gunzTarPerm extractEntry test/mark.js
+1344 silly gunzTarPerm modified mode [ 'test/mark.js', 420, 436 ]
+1345 silly gunzTarPerm extractEntry test/bash-comparison.js
+1346 silly gunzTarPerm modified mode [ 'test/bash-comparison.js', 420, 436 ]
+1347 silly gunzTarPerm extractEntry lib/ms.js
+1348 silly gunzTarPerm modified mode [ 'lib/ms.js', 420, 436 ]
+1349 silly gunzTarPerm extractEntry lib/pending.js
+1350 silly gunzTarPerm modified mode [ 'lib/pending.js', 420, 436 ]
+1351 silly gunzTarPerm extractEntry jade.md
+1352 silly gunzTarPerm modified mode [ 'jade.md', 420, 436 ]
+1353 silly gunzTarPerm extractEntry test.jade
+1354 silly gunzTarPerm modified mode [ 'test.jade', 420, 436 ]
+1355 silly gunzTarPerm extractEntry lib/compiler.js
+1356 silly gunzTarPerm modified mode [ 'lib/compiler.js', 420, 436 ]
+1357 silly gunzTarPerm extractEntry lib/context.js
+1358 silly gunzTarPerm modified mode [ 'lib/context.js', 420, 436 ]
+1359 silly gunzTarPerm extractEntry test/opts_fs.js
+1360 silly gunzTarPerm modified mode [ 'test/opts_fs.js', 420, 436 ]
+1361 silly gunzTarPerm extractEntry test/rel.js
+1362 silly gunzTarPerm modified mode [ 'test/rel.js', 420, 436 ]
+1363 silly gunzTarPerm extractEntry test/pause-resume.js
+1364 silly gunzTarPerm modified mode [ 'test/pause-resume.js', 420, 436 ]
+1365 silly gunzTarPerm extractEntry test/root-nomount.js
+1366 silly gunzTarPerm modified mode [ 'test/root-nomount.js', 420, 436 ]
+1367 silly gunzTarPerm extractEntry lib/filters.js
+1368 silly gunzTarPerm modified mode [ 'lib/filters.js', 420, 436 ]
+1369 silly gunzTarPerm extractEntry lib/runnable.js
+1370 silly gunzTarPerm modified mode [ 'lib/runnable.js', 420, 436 ]
+1371 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/supports-color-d236be62/node_modules is being purged
+1372 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/supports-color-d236be62/node_modules
+1373 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/growl-a76153ab/node_modules is being purged
+1374 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/growl-a76153ab/node_modules
+1375 silly gunzTarPerm extractEntry lib/inline-tags.js
+1376 silly gunzTarPerm modified mode [ 'lib/inline-tags.js', 420, 436 ]
+1377 silly gunzTarPerm extractEntry lib/runner.js
+1378 silly gunzTarPerm modified mode [ 'lib/runner.js', 420, 436 ]
+1379 silly gunzTarPerm extractEntry lib/suite.js
+1380 silly gunzTarPerm modified mode [ 'lib/suite.js', 420, 436 ]
+1381 silly gunzTarPerm extractEntry lib/test.js
+1382 silly gunzTarPerm modified mode [ 'lib/test.js', 420, 436 ]
+1383 silly gunzTarPerm extractEntry lib/browser/debug.js
+1384 silly gunzTarPerm modified mode [ 'lib/browser/debug.js', 420, 436 ]
+1385 silly gunzTarPerm extractEntry test/return.js
+1386 silly gunzTarPerm modified mode [ 'test/return.js', 420, 436 ]
+1387 silly gunzTarPerm extractEntry test/return_sync.js
+1388 silly gunzTarPerm modified mode [ 'test/return_sync.js', 420, 436 ]
+1389 silly gunzTarPerm extractEntry test/root.js
+1390 silly gunzTarPerm modified mode [ 'test/root.js', 420, 436 ]
+1391 silly gunzTarPerm extractEntry test/zz-cleanup.js
+1392 silly gunzTarPerm modified mode [ 'test/zz-cleanup.js', 420, 436 ]
+1393 silly gunzTarPerm extractEntry lib/browser/events.js
+1394 silly gunzTarPerm modified mode [ 'lib/browser/events.js', 420, 436 ]
+1395 silly gunzTarPerm extractEntry lib/jade.js
+1396 silly gunzTarPerm modified mode [ 'lib/jade.js', 420, 436 ]
+1397 silly gunzTarPerm extractEntry lib/doctypes.js
+1398 silly gunzTarPerm modified mode [ 'lib/doctypes.js', 420, 436 ]
+1399 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/sigmund-cae23232/node_modules is being purged
+1400 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/sigmund-cae23232/node_modules
+1401 silly gunzTarPerm extractEntry lib/browser/progress.js
+1402 silly gunzTarPerm modified mode [ 'lib/browser/progress.js', 420, 436 ]
+1403 silly gunzTarPerm extractEntry lib/browser/tty.js
+1404 silly gunzTarPerm modified mode [ 'lib/browser/tty.js', 420, 436 ]
+1405 silly gunzTarPerm extractEntry test/nocase-nomagic.js
+1406 silly gunzTarPerm modified mode [ 'test/nocase-nomagic.js', 420, 436 ]
+1407 silly gunzTarPerm extractEntry test/bash-results.json
+1408 silly gunzTarPerm modified mode [ 'test/bash-results.json', 420, 436 ]
+1409 silly gunzTarPerm extractEntry lib/template.html
+1410 silly gunzTarPerm modified mode [ 'lib/template.html', 420, 436 ]
+1411 silly gunzTarPerm extractEntry test/root.js
+1412 silly gunzTarPerm modified mode [ 'test/root.js', 420, 436 ]
+1413 silly gunzTarPerm extractEntry test/sync.js
+1414 silly gunzTarPerm modified mode [ 'test/sync.js', 420, 436 ]
+1415 silly gunzTarPerm extractEntry lib/interfaces/bdd.js
+1416 silly gunzTarPerm modified mode [ 'lib/interfaces/bdd.js', 420, 436 ]
+1417 silly gunzTarPerm extractEntry lib/self-closing.js
+1418 silly gunzTarPerm modified mode [ 'lib/self-closing.js', 420, 436 ]
+1419 silly gunzTarPerm extractEntry lib/parser.js
+1420 silly gunzTarPerm modified mode [ 'lib/parser.js', 420, 436 ]
+1421 silly gunzTarPerm extractEntry lib/interfaces/common.js
+1422 silly gunzTarPerm modified mode [ 'lib/interfaces/common.js', 420, 436 ]
+1423 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/graceful-fs-4d0b7757/node_modules is being purged
+1424 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/graceful-fs-4d0b7757/node_modules
+1425 silly gunzTarPerm extractEntry test/mkdirp.js
+1426 silly gunzTarPerm modified mode [ 'test/mkdirp.js', 420, 436 ]
+1427 silly gunzTarPerm extractEntry test/umask.js
+1428 silly gunzTarPerm modified mode [ 'test/umask.js', 420, 436 ]
+1429 silly gunzTarPerm extractEntry lib/runtime.js
+1430 silly gunzTarPerm modified mode [ 'lib/runtime.js', 420, 436 ]
+1431 silly gunzTarPerm extractEntry lib/utils.js
+1432 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 436 ]
+1433 silly gunzTarPerm extractEntry lib/interfaces/exports.js
+1434 silly gunzTarPerm modified mode [ 'lib/interfaces/exports.js', 420, 436 ]
+1435 silly gunzTarPerm extractEntry lib/interfaces/index.js
+1436 silly gunzTarPerm modified mode [ 'lib/interfaces/index.js', 420, 436 ]
+1437 silly gunzTarPerm extractEntry lib/interfaces/qunit.js
+1438 silly gunzTarPerm modified mode [ 'lib/interfaces/qunit.js', 420, 436 ]
+1439 silly gunzTarPerm extractEntry lib/interfaces/tdd.js
+1440 silly gunzTarPerm modified mode [ 'lib/interfaces/tdd.js', 420, 436 ]
+1441 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-335daa1a/node_modules is being purged
+1442 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-335daa1a/node_modules
+1443 silly gunzTarPerm extractEntry lib/reporters/base.js
+1444 silly gunzTarPerm modified mode [ 'lib/reporters/base.js', 420, 436 ]
+1445 silly gunzTarPerm extractEntry test/clobber.js
+1446 silly gunzTarPerm modified mode [ 'test/clobber.js', 420, 436 ]
+1447 silly gunzTarPerm extractEntry test/umask_sync.js
+1448 silly gunzTarPerm modified mode [ 'test/umask_sync.js', 420, 436 ]
+1449 silly gunzTarPerm extractEntry lib/lexer.js
+1450 silly gunzTarPerm modified mode [ 'lib/lexer.js', 420, 436 ]
+1451 silly gunzTarPerm extractEntry lib/nodes/attrs.js
+1452 silly gunzTarPerm modified mode [ 'lib/nodes/attrs.js', 420, 436 ]
+1453 silly gunzTarPerm extractEntry lib/reporters/index.js
+1454 silly gunzTarPerm modified mode [ 'lib/reporters/index.js', 420, 436 ]
+1455 silly gunzTarPerm extractEntry lib/reporters/json-cov.js
+1456 silly gunzTarPerm modified mode [ 'lib/reporters/json-cov.js', 420, 436 ]
+1457 silly gunzTarPerm extractEntry test/race.js
+1458 silly gunzTarPerm modified mode [ 'test/race.js', 420, 436 ]
+1459 silly gunzTarPerm extractEntry lib/nodes/code.js
+1460 silly gunzTarPerm modified mode [ 'lib/nodes/code.js', 420, 436 ]
+1461 silly gunzTarPerm extractEntry lib/nodes/comment.js
+1462 silly gunzTarPerm modified mode [ 'lib/nodes/comment.js', 420, 436 ]
+1463 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimatch-0b7dacc8/node_modules is being purged
+1464 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimatch-0b7dacc8/node_modules
+1465 silly gunzTarPerm extractEntry lib/reporters/json-stream.js
+1466 silly gunzTarPerm modified mode [ 'lib/reporters/json-stream.js', 420, 436 ]
+1467 silly gunzTarPerm extractEntry lib/reporters/json.js
+1468 silly gunzTarPerm modified mode [ 'lib/reporters/json.js', 420, 436 ]
+1469 silly gunzTarPerm extractEntry lib/nodes/doctype.js
+1470 silly gunzTarPerm modified mode [ 'lib/nodes/doctype.js', 420, 436 ]
+1471 silly gunzTarPerm extractEntry lib/nodes/case.js
+1472 silly gunzTarPerm modified mode [ 'lib/nodes/case.js', 420, 436 ]
+1473 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/lru-cache-da51174c/node_modules is being purged
+1474 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/lru-cache-da51174c/node_modules
+1475 silly gunzTarPerm extractEntry lib/reporters/html.js
+1476 silly gunzTarPerm modified mode [ 'lib/reporters/html.js', 420, 436 ]
+1477 silly gunzTarPerm extractEntry lib/reporters/list.js
+1478 silly gunzTarPerm modified mode [ 'lib/reporters/list.js', 420, 436 ]
+1479 silly gunzTarPerm extractEntry lib/nodes/filter.js
+1480 silly gunzTarPerm modified mode [ 'lib/nodes/filter.js', 420, 436 ]
+1481 silly gunzTarPerm extractEntry lib/nodes/index.js
+1482 silly gunzTarPerm modified mode [ 'lib/nodes/index.js', 420, 436 ]
+1483 silly gunzTarPerm extractEntry lib/reporters/markdown.js
+1484 silly gunzTarPerm modified mode [ 'lib/reporters/markdown.js', 420, 436 ]
+1485 silly gunzTarPerm extractEntry lib/reporters/min.js
+1486 silly gunzTarPerm modified mode [ 'lib/reporters/min.js', 420, 436 ]
+1487 silly gunzTarPerm extractEntry lib/nodes/literal.js
+1488 silly gunzTarPerm modified mode [ 'lib/nodes/literal.js', 420, 436 ]
+1489 silly gunzTarPerm extractEntry lib/nodes/mixin.js
+1490 silly gunzTarPerm modified mode [ 'lib/nodes/mixin.js', 420, 436 ]
+1491 silly gunzTarPerm extractEntry lib/reporters/nyan.js
+1492 silly gunzTarPerm modified mode [ 'lib/reporters/nyan.js', 420, 436 ]
+1493 silly gunzTarPerm extractEntry lib/reporters/progress.js
+1494 silly gunzTarPerm modified mode [ 'lib/reporters/progress.js', 420, 436 ]
+1495 silly gunzTarPerm extractEntry lib/nodes/node.js
+1496 silly gunzTarPerm modified mode [ 'lib/nodes/node.js', 420, 436 ]
+1497 silly gunzTarPerm extractEntry lib/nodes/block.js
+1498 silly gunzTarPerm modified mode [ 'lib/nodes/block.js', 420, 436 ]
+1499 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimist-dd4e317a/node_modules is being purged
+1500 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimist-dd4e317a/node_modules
+1501 silly gunzTarPerm extractEntry lib/reporters/html-cov.js
+1502 silly gunzTarPerm modified mode [ 'lib/reporters/html-cov.js', 420, 436 ]
+1503 silly gunzTarPerm extractEntry lib/reporters/spec.js
+1504 silly gunzTarPerm modified mode [ 'lib/reporters/spec.js', 420, 436 ]
+1505 silly gunzTarPerm extractEntry lib/nodes/tag.js
+1506 silly gunzTarPerm modified mode [ 'lib/nodes/tag.js', 420, 436 ]
+1507 silly gunzTarPerm extractEntry lib/nodes/block-comment.js
+1508 silly gunzTarPerm modified mode [ 'lib/nodes/block-comment.js', 420, 436 ]
+1509 silly gunzTarPerm extractEntry lib/reporters/dot.js
+1510 silly gunzTarPerm modified mode [ 'lib/reporters/dot.js', 420, 436 ]
+1511 silly gunzTarPerm extractEntry lib/reporters/tap.js
+1512 silly gunzTarPerm modified mode [ 'lib/reporters/tap.js', 420, 436 ]
+1513 silly gunzTarPerm extractEntry lib/reporters/doc.js
+1514 silly gunzTarPerm modified mode [ 'lib/reporters/doc.js', 420, 436 ]
+1515 silly gunzTarPerm extractEntry lib/nodes/text.js
+1516 silly gunzTarPerm modified mode [ 'lib/nodes/text.js', 420, 436 ]
+1517 silly gunzTarPerm extractEntry lib/nodes/each.js
+1518 silly gunzTarPerm modified mode [ 'lib/nodes/each.js', 420, 436 ]
+1519 silly gunzTarPerm extractEntry lib/reporters/xunit.js
+1520 silly gunzTarPerm modified mode [ 'lib/reporters/xunit.js', 420, 436 ]
+1521 silly gunzTarPerm extractEntry lib/reporters/landing.js
+1522 silly gunzTarPerm modified mode [ 'lib/reporters/landing.js', 420, 436 ]
+1523 silly gunzTarPerm extractEntry lib/reporters/templates/coverage.jade
+1524 silly gunzTarPerm modified mode [ 'lib/reporters/templates/coverage.jade', 420, 436 ]
+1525 silly gunzTarPerm extractEntry lib/reporters/templates/menu.jade
+1526 silly gunzTarPerm modified mode [ 'lib/reporters/templates/menu.jade', 420, 436 ]
+1527 silly gunzTarPerm extractEntry lib/reporters/templates/script.html
+1528 silly gunzTarPerm modified mode [ 'lib/reporters/templates/script.html', 420, 436 ]
+1529 silly gunzTarPerm extractEntry lib/reporters/templates/style.html
+1530 silly gunzTarPerm modified mode [ 'lib/reporters/templates/style.html', 420, 436 ]
+1531 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-1037c9fb/node_modules is being purged
+1532 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-1037c9fb/node_modules
+1533 silly gunzTarPerm extractEntry mocha.css
+1534 silly gunzTarPerm modified mode [ 'mocha.css', 420, 436 ]
+1535 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/glob-f8f4ee97/node_modules is being purged
+1536 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/glob-f8f4ee97/node_modules
+1537 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-6df81933/node_modules is being purged
+1538 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-6df81933/node_modules
+1539 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/jade-ad81e5fc/node_modules is being purged
+1540 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/jade-ad81e5fc/node_modules
+1541 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mocha-25e5254d/node_modules is being purged
+1542 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mocha-25e5254d/node_modules
+1543 silly doParallel preinstall 16
+1544 silly preinstall commander@2.3.0 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-f91ae784
+1545 info lifecycle commander@2.3.0~preinstall: commander@2.3.0
+1546 silly preinstall diff@1.4.0 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/diff-147fbd8b
+1547 info lifecycle diff@1.4.0~preinstall: diff@1.4.0
+1548 silly preinstall escape-string-regexp@1.0.2 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/escape-string-regexp-370b47b3
+1549 info lifecycle escape-string-regexp@1.0.2~preinstall: escape-string-regexp@1.0.2
+1550 silly preinstall graceful-fs@2.0.3 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/graceful-fs-4d0b7757
+1551 info lifecycle graceful-fs@2.0.3~preinstall: graceful-fs@2.0.3
+1552 silly preinstall growl@1.8.1 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/growl-a76153ab
+1553 info lifecycle growl@1.8.1~preinstall: growl@1.8.1
+1554 silly preinstall commander@0.6.1 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-335daa1a
+1555 info lifecycle commander@0.6.1~preinstall: commander@0.6.1
+1556 silly preinstall mkdirp@0.3.0 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-1037c9fb
+1557 info lifecycle mkdirp@0.3.0~preinstall: mkdirp@0.3.0
+1558 silly preinstall jade@0.26.3 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/jade-ad81e5fc
+1559 info lifecycle jade@0.26.3~preinstall: jade@0.26.3
+1560 silly preinstall lru-cache@2.7.3 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/lru-cache-da51174c
+1561 info lifecycle lru-cache@2.7.3~preinstall: lru-cache@2.7.3
+1562 silly preinstall minimist@0.0.8 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimist-dd4e317a
+1563 info lifecycle minimist@0.0.8~preinstall: minimist@0.0.8
+1564 silly preinstall mkdirp@0.5.1 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-6df81933
+1565 info lifecycle mkdirp@0.5.1~preinstall: mkdirp@0.5.1
+1566 silly preinstall sigmund@1.0.1 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/sigmund-cae23232
+1567 info lifecycle sigmund@1.0.1~preinstall: sigmund@1.0.1
+1568 silly preinstall minimatch@0.2.14 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimatch-0b7dacc8
+1569 info lifecycle minimatch@0.2.14~preinstall: minimatch@0.2.14
+1570 silly preinstall glob@3.2.3 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/glob-f8f4ee97
+1571 info lifecycle glob@3.2.3~preinstall: glob@3.2.3
+1572 silly preinstall supports-color@1.2.0 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/supports-color-d236be62
+1573 info lifecycle supports-color@1.2.0~preinstall: supports-color@1.2.0
+1574 silly preinstall mocha@2.4.5 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mocha-25e5254d
+1575 info lifecycle mocha@2.4.5~preinstall: mocha@2.4.5
+1576 silly lifecycle commander@2.3.0~preinstall: no script for preinstall, continuing
+1577 silly lifecycle diff@1.4.0~preinstall: no script for preinstall, continuing
+1578 silly lifecycle escape-string-regexp@1.0.2~preinstall: no script for preinstall, continuing
+1579 silly lifecycle graceful-fs@2.0.3~preinstall: no script for preinstall, continuing
+1580 silly lifecycle growl@1.8.1~preinstall: no script for preinstall, continuing
+1581 silly lifecycle commander@0.6.1~preinstall: no script for preinstall, continuing
+1582 silly lifecycle mkdirp@0.3.0~preinstall: no script for preinstall, continuing
+1583 silly lifecycle jade@0.26.3~preinstall: no script for preinstall, continuing
+1584 silly lifecycle lru-cache@2.7.3~preinstall: no script for preinstall, continuing
+1585 silly lifecycle minimist@0.0.8~preinstall: no script for preinstall, continuing
+1586 silly lifecycle mkdirp@0.5.1~preinstall: no script for preinstall, continuing
+1587 silly lifecycle sigmund@1.0.1~preinstall: no script for preinstall, continuing
+1588 silly lifecycle minimatch@0.2.14~preinstall: no script for preinstall, continuing
+1589 silly lifecycle glob@3.2.3~preinstall: no script for preinstall, continuing
+1590 silly lifecycle supports-color@1.2.0~preinstall: no script for preinstall, continuing
+1591 silly lifecycle mocha@2.4.5~preinstall: no script for preinstall, continuing
+1592 silly doReverseSerial remove 0
+1593 silly doSerial move 0
+1594 silly doSerial finalize 16
+1595 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/commander
+1596 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/diff
+1597 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/escape-string-regexp
+1598 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/graceful-fs
+1599 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/growl
+1600 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/jade/node_modules/commander
+1601 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/jade/node_modules/mkdirp
+1602 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/jade
+1603 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/lru-cache
+1604 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/minimist
+1605 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/mkdirp
+1606 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/sigmund
+1607 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/minimatch
+1608 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/glob
+1609 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/supports-color
+1610 silly finalize /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/mocha
+1611 silly doSerial build 16
+1612 silly build commander@2.3.0
+1613 info linkStuff commander@2.3.0
+1614 silly linkStuff commander@2.3.0 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1615 verbose linkBins commander@2.3.0
+1616 verbose linkMans commander@2.3.0
+1617 silly build diff@1.4.0
+1618 info linkStuff diff@1.4.0
+1619 silly linkStuff diff@1.4.0 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1620 verbose linkBins diff@1.4.0
+1621 verbose linkMans diff@1.4.0
+1622 silly build escape-string-regexp@1.0.2
+1623 info linkStuff escape-string-regexp@1.0.2
+1624 silly linkStuff escape-string-regexp@1.0.2 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1625 verbose linkBins escape-string-regexp@1.0.2
+1626 verbose linkMans escape-string-regexp@1.0.2
+1627 silly build graceful-fs@2.0.3
+1628 info linkStuff graceful-fs@2.0.3
+1629 silly linkStuff graceful-fs@2.0.3 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1630 verbose linkBins graceful-fs@2.0.3
+1631 verbose linkMans graceful-fs@2.0.3
+1632 silly build growl@1.8.1
+1633 info linkStuff growl@1.8.1
+1634 silly linkStuff growl@1.8.1 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1635 verbose linkBins growl@1.8.1
+1636 verbose linkMans growl@1.8.1
+1637 silly build commander@0.6.1
+1638 info linkStuff commander@0.6.1
+1639 silly linkStuff commander@0.6.1 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/jade/node_modules as its parent node_modules
+1640 verbose linkBins commander@0.6.1
+1641 verbose linkMans commander@0.6.1
+1642 silly build mkdirp@0.3.0
+1643 info linkStuff mkdirp@0.3.0
+1644 silly linkStuff mkdirp@0.3.0 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/jade/node_modules as its parent node_modules
+1645 verbose linkBins mkdirp@0.3.0
+1646 verbose linkMans mkdirp@0.3.0
+1647 silly build jade@0.26.3
+1648 info linkStuff jade@0.26.3
+1649 silly linkStuff jade@0.26.3 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1650 verbose linkBins jade@0.26.3
+1651 verbose link bins [ { jade: './bin/jade' },
+1651 verbose link bins   '/home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin',
+1651 verbose link bins   false ]
+1652 verbose linkMans jade@0.26.3
+1653 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin/jade is being purged
+1654 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin/jade
+1655 silly build lru-cache@2.7.3
+1656 info linkStuff lru-cache@2.7.3
+1657 silly linkStuff lru-cache@2.7.3 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1658 verbose linkBins lru-cache@2.7.3
+1659 verbose linkMans lru-cache@2.7.3
+1660 silly build minimist@0.0.8
+1661 info linkStuff minimist@0.0.8
+1662 silly linkStuff minimist@0.0.8 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1663 verbose linkBins minimist@0.0.8
+1664 verbose linkMans minimist@0.0.8
+1665 silly build mkdirp@0.5.1
+1666 info linkStuff mkdirp@0.5.1
+1667 silly linkStuff mkdirp@0.5.1 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1668 verbose linkBins mkdirp@0.5.1
+1669 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+1669 verbose link bins   '/home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin',
+1669 verbose link bins   false ]
+1670 verbose linkMans mkdirp@0.5.1
+1671 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin/mkdirp is being purged
+1672 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin/mkdirp
+1673 silly build sigmund@1.0.1
+1674 info linkStuff sigmund@1.0.1
+1675 silly linkStuff sigmund@1.0.1 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1676 verbose linkBins sigmund@1.0.1
+1677 verbose linkMans sigmund@1.0.1
+1678 silly build minimatch@0.2.14
+1679 info linkStuff minimatch@0.2.14
+1680 silly linkStuff minimatch@0.2.14 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1681 verbose linkBins minimatch@0.2.14
+1682 verbose linkMans minimatch@0.2.14
+1683 silly build glob@3.2.3
+1684 info linkStuff glob@3.2.3
+1685 silly linkStuff glob@3.2.3 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1686 verbose linkBins glob@3.2.3
+1687 verbose linkMans glob@3.2.3
+1688 silly build supports-color@1.2.0
+1689 info linkStuff supports-color@1.2.0
+1690 silly linkStuff supports-color@1.2.0 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1691 verbose linkBins supports-color@1.2.0
+1692 verbose link bins [ { 'supports-color': 'cli.js' },
+1692 verbose link bins   '/home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin',
+1692 verbose link bins   false ]
+1693 verbose linkMans supports-color@1.2.0
+1694 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin/supports-color is being purged
+1695 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin/supports-color
+1696 silly build mocha@2.4.5
+1697 info linkStuff mocha@2.4.5
+1698 silly linkStuff mocha@2.4.5 has /home/raphael/Documents/tgi/Raphael_Thiago/node_modules as its parent node_modules
+1699 verbose linkBins mocha@2.4.5
+1700 verbose link bins [ { mocha: './bin/mocha', _mocha: './bin/_mocha' },
+1700 verbose link bins   '/home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin',
+1700 verbose link bins   false ]
+1701 verbose linkMans mocha@2.4.5
+1702 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin/mocha is being purged
+1703 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin/mocha
+1704 silly gentlyRm /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin/_mocha is being purged
+1705 verbose gentlyRm don't care about contents; nuking /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.bin/_mocha
+1706 silly doSerial global-link 0
+1707 silly doParallel update-linked 0
+1708 silly doSerial install 16
+1709 silly install commander@2.3.0 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-f91ae784
+1710 info lifecycle commander@2.3.0~install: commander@2.3.0
+1711 silly lifecycle commander@2.3.0~install: no script for install, continuing
+1712 silly install diff@1.4.0 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/diff-147fbd8b
+1713 info lifecycle diff@1.4.0~install: diff@1.4.0
+1714 silly lifecycle diff@1.4.0~install: no script for install, continuing
+1715 silly install escape-string-regexp@1.0.2 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/escape-string-regexp-370b47b3
+1716 info lifecycle escape-string-regexp@1.0.2~install: escape-string-regexp@1.0.2
+1717 silly lifecycle escape-string-regexp@1.0.2~install: no script for install, continuing
+1718 silly install graceful-fs@2.0.3 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/graceful-fs-4d0b7757
+1719 info lifecycle graceful-fs@2.0.3~install: graceful-fs@2.0.3
+1720 silly lifecycle graceful-fs@2.0.3~install: no script for install, continuing
+1721 silly install growl@1.8.1 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/growl-a76153ab
+1722 info lifecycle growl@1.8.1~install: growl@1.8.1
+1723 silly lifecycle growl@1.8.1~install: no script for install, continuing
+1724 silly install commander@0.6.1 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-335daa1a
+1725 info lifecycle commander@0.6.1~install: commander@0.6.1
+1726 silly lifecycle commander@0.6.1~install: no script for install, continuing
+1727 silly install mkdirp@0.3.0 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-1037c9fb
+1728 info lifecycle mkdirp@0.3.0~install: mkdirp@0.3.0
+1729 silly lifecycle mkdirp@0.3.0~install: no script for install, continuing
+1730 silly install jade@0.26.3 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/jade-ad81e5fc
+1731 info lifecycle jade@0.26.3~install: jade@0.26.3
+1732 silly lifecycle jade@0.26.3~install: no script for install, continuing
+1733 silly install lru-cache@2.7.3 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/lru-cache-da51174c
+1734 info lifecycle lru-cache@2.7.3~install: lru-cache@2.7.3
+1735 silly lifecycle lru-cache@2.7.3~install: no script for install, continuing
+1736 silly install minimist@0.0.8 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimist-dd4e317a
+1737 info lifecycle minimist@0.0.8~install: minimist@0.0.8
+1738 silly lifecycle minimist@0.0.8~install: no script for install, continuing
+1739 silly install mkdirp@0.5.1 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-6df81933
+1740 info lifecycle mkdirp@0.5.1~install: mkdirp@0.5.1
+1741 silly lifecycle mkdirp@0.5.1~install: no script for install, continuing
+1742 silly install sigmund@1.0.1 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/sigmund-cae23232
+1743 info lifecycle sigmund@1.0.1~install: sigmund@1.0.1
+1744 silly lifecycle sigmund@1.0.1~install: no script for install, continuing
+1745 silly install minimatch@0.2.14 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimatch-0b7dacc8
+1746 info lifecycle minimatch@0.2.14~install: minimatch@0.2.14
+1747 silly lifecycle minimatch@0.2.14~install: no script for install, continuing
+1748 silly install glob@3.2.3 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/glob-f8f4ee97
+1749 info lifecycle glob@3.2.3~install: glob@3.2.3
+1750 silly lifecycle glob@3.2.3~install: no script for install, continuing
+1751 silly install supports-color@1.2.0 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/supports-color-d236be62
+1752 info lifecycle supports-color@1.2.0~install: supports-color@1.2.0
+1753 silly lifecycle supports-color@1.2.0~install: no script for install, continuing
+1754 silly install mocha@2.4.5 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mocha-25e5254d
+1755 info lifecycle mocha@2.4.5~install: mocha@2.4.5
+1756 silly lifecycle mocha@2.4.5~install: no script for install, continuing
+1757 silly doSerial postinstall 16
+1758 silly postinstall commander@2.3.0 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-f91ae784
+1759 info lifecycle commander@2.3.0~postinstall: commander@2.3.0
+1760 silly lifecycle commander@2.3.0~postinstall: no script for postinstall, continuing
+1761 silly postinstall diff@1.4.0 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/diff-147fbd8b
+1762 info lifecycle diff@1.4.0~postinstall: diff@1.4.0
+1763 silly lifecycle diff@1.4.0~postinstall: no script for postinstall, continuing
+1764 silly postinstall escape-string-regexp@1.0.2 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/escape-string-regexp-370b47b3
+1765 info lifecycle escape-string-regexp@1.0.2~postinstall: escape-string-regexp@1.0.2
+1766 silly lifecycle escape-string-regexp@1.0.2~postinstall: no script for postinstall, continuing
+1767 silly postinstall graceful-fs@2.0.3 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/graceful-fs-4d0b7757
+1768 info lifecycle graceful-fs@2.0.3~postinstall: graceful-fs@2.0.3
+1769 silly lifecycle graceful-fs@2.0.3~postinstall: no script for postinstall, continuing
+1770 silly postinstall growl@1.8.1 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/growl-a76153ab
+1771 info lifecycle growl@1.8.1~postinstall: growl@1.8.1
+1772 silly lifecycle growl@1.8.1~postinstall: no script for postinstall, continuing
+1773 silly postinstall commander@0.6.1 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/commander-335daa1a
+1774 info lifecycle commander@0.6.1~postinstall: commander@0.6.1
+1775 silly lifecycle commander@0.6.1~postinstall: no script for postinstall, continuing
+1776 silly postinstall mkdirp@0.3.0 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-1037c9fb
+1777 info lifecycle mkdirp@0.3.0~postinstall: mkdirp@0.3.0
+1778 silly lifecycle mkdirp@0.3.0~postinstall: no script for postinstall, continuing
+1779 silly postinstall jade@0.26.3 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/jade-ad81e5fc
+1780 info lifecycle jade@0.26.3~postinstall: jade@0.26.3
+1781 silly lifecycle jade@0.26.3~postinstall: no script for postinstall, continuing
+1782 silly postinstall lru-cache@2.7.3 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/lru-cache-da51174c
+1783 info lifecycle lru-cache@2.7.3~postinstall: lru-cache@2.7.3
+1784 silly lifecycle lru-cache@2.7.3~postinstall: no script for postinstall, continuing
+1785 silly postinstall minimist@0.0.8 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimist-dd4e317a
+1786 info lifecycle minimist@0.0.8~postinstall: minimist@0.0.8
+1787 silly lifecycle minimist@0.0.8~postinstall: no script for postinstall, continuing
+1788 silly postinstall mkdirp@0.5.1 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mkdirp-6df81933
+1789 info lifecycle mkdirp@0.5.1~postinstall: mkdirp@0.5.1
+1790 silly lifecycle mkdirp@0.5.1~postinstall: no script for postinstall, continuing
+1791 silly postinstall sigmund@1.0.1 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/sigmund-cae23232
+1792 info lifecycle sigmund@1.0.1~postinstall: sigmund@1.0.1
+1793 silly lifecycle sigmund@1.0.1~postinstall: no script for postinstall, continuing
+1794 silly postinstall minimatch@0.2.14 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/minimatch-0b7dacc8
+1795 info lifecycle minimatch@0.2.14~postinstall: minimatch@0.2.14
+1796 silly lifecycle minimatch@0.2.14~postinstall: no script for postinstall, continuing
+1797 silly postinstall glob@3.2.3 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/glob-f8f4ee97
+1798 info lifecycle glob@3.2.3~postinstall: glob@3.2.3
+1799 silly lifecycle glob@3.2.3~postinstall: no script for postinstall, continuing
+1800 silly postinstall supports-color@1.2.0 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/supports-color-d236be62
+1801 info lifecycle supports-color@1.2.0~postinstall: supports-color@1.2.0
+1802 silly lifecycle supports-color@1.2.0~postinstall: no script for postinstall, continuing
+1803 silly postinstall mocha@2.4.5 /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging/mocha-25e5254d
+1804 info lifecycle mocha@2.4.5~postinstall: mocha@2.4.5
+1805 silly lifecycle mocha@2.4.5~postinstall: no script for postinstall, continuing
+1806 verbose unlock done using /home/raphael/.npm/_locks/staging-fa0fce897a1b21e9.lock for /home/raphael/Documents/tgi/Raphael_Thiago/node_modules/.staging
+1807 silly executeActions Finishing
+1808 silly rollbackFailedOptional Starting
+1809 silly rollbackFailedOptional Finishing
+1810 silly runTopLevelLifecycles Starting
+1811 silly install runTopLevelLifecycles
+1812 silly runTopLevelLifecycles Finishing
+1813 silly install saveToDependencies
+1814 warn saveError ENOENT: no such file or directory, open '/home/raphael/Documents/tgi/Raphael_Thiago/package.json'
+1815 silly install printInstalled
+1816 warn enoent ENOENT: no such file or directory, open '/home/raphael/Documents/tgi/Raphael_Thiago/package.json'
+1817 warn Raphael_Thiago No description
+1818 warn Raphael_Thiago No repository field.
+1819 warn Raphael_Thiago No README data
+1820 warn Raphael_Thiago No license field.
+1821 verbose exit [ 0, true ]
+1822 verbose stack Error: write EPIPE
+1822 verbose stack     at exports._errnoException (util.js:856:11)
+1822 verbose stack     at WriteWrap.afterWrite (net.js:763:14)
+1823 verbose cwd /home/raphael/Documents/tgi/Raphael_Thiago
+1824 error Linux 4.2.0-30-generic
+1825 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "mocha" "--save"
+1826 error node v5.6.0
+1827 error npm  v3.6.0
+1828 error code EPIPE
+1829 error errno EPIPE
+1830 error syscall write
+1831 error write EPIPE
+1832 error If you need help, you may report this error at:
+1832 error     <https://github.com/npm/npm/issues>
+1833 verbose exit [ 1, true ]
