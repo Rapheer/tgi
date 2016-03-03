@@ -1,0 +1,14 @@
+O sistema consiste em um software que tem como objetivo suprir todas as necessidades de um aluno, por exemplo:
+	- fácil gestão de tarefas diárias para controle de estudos e ou entrega de trabalhos e provas;
+	- gestão de arquivos pertinentes à aula, como por exemplo pdfs, ppts ou até mesmo vídeos hospedados em sites específicos para esse fim (youtube, vimeo, etc...);
+	- fórum para perguntas e respostas onde todos os alunos de um curso especifico podem discutir e trocar experiencias sobre algum assunto especifico;
+	- calendário compartilhado com os outros alunos do mesmo curso para criação de eventos pertinentes a toda a sala de aula;
+
+
+O sistema também oferecerá uma solução para problemas voltados a docencia das matérias tendo como papel a assistencia ao professor, por exemplo:
+	- agenda para controle de provas e trabalhos;
+	- lista de presença automatizada baseada em qr code;
+	- formulação automatica de quizzes de revisão e provas a partir de perguntas do fórum de perguntas e respostas utilizado pelos alunos;
+	- possibilidade de disponibilizar arquivos, vídeos e artigos para alunos matriculados em seu curso para facilitar interação professor - aluno;
+
+
